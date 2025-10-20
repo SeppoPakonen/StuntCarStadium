@@ -1,0 +1,5 @@
+/common/active/sblo/Dev/StuntCarStadium/obj/Debug/net9.0/Assembly-CSharp.GeneratedMSBuildEditorConfig.editorconfig
+/common/active/sblo/Dev/StuntCarStadium/obj/Debug/net9.0/Assembly-CSharp.AssemblyInfoInputs.cache
+/common/active/sblo/Dev/StuntCarStadium/obj/Debug/net9.0/Assembly-CSharp.AssemblyInfo.cs
+/common/active/sblo/Dev/StuntCarStadium/obj/Debug/net9.0/Assembly-CSharp.csproj.CoreCompileInputs.cache
+/common/active/sblo/Dev/StuntCarStadium/obj/Debug/net9.0/Assembly-CSharp.sourcelink.json
