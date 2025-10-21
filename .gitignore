@@ -5,6 +5,12 @@
 /[Bb]uild/
 /[Bb]uilds/
 /Assets/AssetStoreTools*
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Ii]mports/
+/[Ee]xported[Bb]uild[Ss]ettings/
+/[Pp]roject[Ss]ettings/[Ee]ditor[Bb]uild[Ss]ettings.asset
+/[Pp]roject[Ss]ettings/[Pp]roject[Vv]ersion.txt
 
 # Visual Studio / Rider
 .vs/
@@ -12,6 +18,10 @@
 *.userprefs
 Assembly-CSharp*.csproj
 Assembly-CSharp*.sln
+
+# Build output directories
+obj/
+[Bb]in/
 
 # MonoDevelop
 *.pidb
