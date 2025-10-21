@@ -5,6 +5,8 @@ using System.IO;
 using System.Linq;
 using System.Threading;
 using UnityEngine;
+using UnityEngine.UI;
+using Photon.Pun;
 
 public class Game : bsNetwork
 {
@@ -12,7 +14,7 @@ public class Game : bsNetwork
 
 	public Player testBot;
 
-	public GUIText scoreText;
+	public Text scoreText;
 
 	public ParticleEmitter smoke;
 
@@ -71,7 +73,7 @@ public class Game : bsNetwork
 
 	public GUITexture textureCenter;
 
-	public GUIText centerText2;
+	public Text centerText2;
 
 	internal int FrameCount;
 
@@ -128,7 +130,7 @@ public class Game : bsNetwork
 
 	public AudioSource rainSound;
 
-	public GUIText leftText;
+	public Text leftText;
 
 	public HashSet<int> allies = new HashSet<int>();
 
@@ -751,7 +753,7 @@ public class Game : bsNetwork
 		}
 	}
 
-	[RPC]
+	[PunRPC]
 	public void SetStartTime(double time)
 	{
 		StartTime = time;
@@ -1142,7 +1144,7 @@ public class Game : bsNetwork
 		}
 	}
 
-	[RPC]
+	[PunRPC]
 	public void SetAlly(int from, int to, bool b)
 	{
 		if (from == base.myId)
@@ -1743,7 +1745,7 @@ public class Game : bsNetwork
 		GUILayout.EndHorizontal();
 	}
 
-	[RPC]
+	[PunRPC]
 	public override void OnPlConnected()
 	{
 		CallRPC(SetStartTime, StartTime);
@@ -1892,7 +1894,7 @@ public class Game : bsNetwork
 		}
 	}
 
-	[RPC]
+	[PunRPC]
 	internal void FlagCaptured(int plid)
 	{
 		//IL_00c2: Unknown result type (might be due to invalid IL or missing references)
@@ -1929,7 +1931,7 @@ public class Game : bsNetwork
 		StartCoroutine(CountTo3());
 	}
 
-	[RPC]
+	[PunRPC]
 	public void SetSpeedLimit(float limit)
 	{
 		bs._Loader.speedLimitEnabled = true;

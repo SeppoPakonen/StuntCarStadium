@@ -1,6 +1,7 @@
 using CodeStage.AntiCheat.ObscuredTypes;
 using System;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class CarSelectMenu : GuiClasses
 {
@@ -27,9 +28,9 @@ public class CarSelectMenu : GuiClasses
 
 	public Transform CarPlaceHolder;
 
-	public GUIText carName;
+	public Text carName;
 
-	public GUIText lockedTxt;
+	public Text lockedTxt;
 
 	public GUITexture textbacground;
 
@@ -380,7 +381,7 @@ public class CarSelectMenu : GuiClasses
 		}
 		lockedButton.enabled = locked;
 		selectButton.texture = ((!locked) ? selectIcon : lockedIcon);
-		GUIText gUIText = lockedTxt;
+		Text gUIText = lockedTxt;
 		bool enabled = locked;
 		textbacground.enabled = enabled;
 		gUIText.enabled = enabled;

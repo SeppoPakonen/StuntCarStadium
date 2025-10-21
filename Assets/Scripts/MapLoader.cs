@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
 using UnityEngine;
+using UnityEngine.Networking;
 
 public class MapLoader : GuiClasses
 {
@@ -735,9 +736,9 @@ public class MapLoader : GuiClasses
 		swirl = 0f;
 		scale = 1f;
 		MonoBehaviour.print(bs.mainSite + s);
-		WWW www = new WWW(bs.mainSite + s);
-		yield return www;
-		if (!string.IsNullOrEmpty(www.error))
+		UnityWebRequest www = UnityWebRequest.Get(bs.mainSite + s);
+		yield return www.SendWebRequest();
+		if (www.result != UnityWebRequest.Result.Success)
 		{
 			if (onError != null)
 			{
@@ -745,7 +746,8 @@ public class MapLoader : GuiClasses
 			}
 			yield break;
 		}
-		BinaryReader ms = new BinaryReader(www.bytes);
+		byte[] bytes = www.downloadHandler.data;
+		BinaryReader ms = new BinaryReader(bytes);
 		MonoBehaviour.print("Loading Map " + ms.Length);
 		int version = 0;
 		Dictionary<int, CurvySpline2> saveIds = new Dictionary<int, CurvySpline2>();

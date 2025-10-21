@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class CurvySpline2 : CurvySpline
 {
@@ -28,7 +29,7 @@ public class CurvySpline2 : CurvySpline
 
 	public CurvySplineSegment pivot;
 
-	private GUIText guiText;
+	private Text guiText;
 
 	public int saveId;
 
@@ -159,7 +160,7 @@ public class CurvySpline2 : CurvySpline
 			}
 			if (shape && guiText == null)
 			{
-				guiText = new GameObject(base.name + " Text").AddComponent<GUIText>();
+				guiText = new GameObject(base.name + " Text").AddComponent<Text>();
 			}
 			if (guiText != null)
 			{

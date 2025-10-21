@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Networking;
 
 public class LoadingScreen : bs
 {
@@ -183,21 +184,21 @@ public class LoadingScreen : bs
 			LoadingScreen.version = bs.setting.version;
 		}
 		MonoBehaviour.print("Loading Maps");
-		www = new WWW(bs.http + "://server.critical-missions.com/tm/tm.txt");
-		yield return www;
+		www = UnityWebRequest.Get(bs.http + "://server.critical-missions.com/tm/tm.txt");
+		yield return www.SendWebRequest();
 		string txt;
-		if (string.IsNullOrEmpty(www.error))
-		{
-			Debug.Log(www.url);
-			string text2;
-			txt = (text2 = www.text);
-			PlayerPrefs.SetString("tm.txt", text2);
-		}
-		else
+		if (www.result != UnityWebRequest.Result.Success)
 		{
 			txt = PlayerPrefs.GetString("tm.txt", string.Empty);
 			Debug.LogWarning(www.url + www.error);
 			bs.LogEvent("Failed tm.txt");
+		}
+		else
+		{
+			Debug.Log(www.url);
+			string text2;
+			txt = (text2 = www.downloadHandler.text);
+			PlayerPrefs.SetString("tm.txt", text2);
 		}
 		if (!string.IsNullOrEmpty(txt))
 		{

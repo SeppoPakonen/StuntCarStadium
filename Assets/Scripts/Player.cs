@@ -5,6 +5,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using UnityEngine;
+using UnityEngine.UI;
+using Photon.Pun;
 
 public class Player : bsNetwork, IComparer<Player>
 {
@@ -255,7 +257,7 @@ public class Player : bsNetwork, IComparer<Player>
 
 	private Vector3 camrot;
 
-	public GUIText playerNameTxt;
+	public Text playerNameTxt;
 
 	private VoiceChatPlayer voiceChatPlayer;
 
@@ -402,7 +404,7 @@ public class Player : bsNetwork, IComparer<Player>
 
 	internal string playerNameClan => replay.playerNameClan;
 
-	public GUIText playerNameTxt2 => playerNameTxt;
+	public Text playerNameTxt2 => playerNameTxt;
 
 	private Vector3 syncPos => base.pos;
 
@@ -685,7 +687,7 @@ public class Player : bsNetwork, IComparer<Player>
 		{
 			oldPosVels = new List<PosVel>(posVels);
 		}
-		if (playerNameTxt is GUIText)
+		if (playerNameTxt is Text)
 		{
 			playerNameTxt.transform.parent = null;
 		}
@@ -758,13 +760,13 @@ public class Player : bsNetwork, IComparer<Player>
 		}
 	}
 
-	[RPC]
+	[PunRPC]
 	private void SetClanTag(string s)
 	{
 		replay.clanTag = s;
 	}
 
-	[RPC]
+	[PunRPC]
 	private void SetColor(float r, float g, float b)
 	{
 		Color color = new Color(r, g, b);
@@ -777,7 +779,7 @@ public class Player : bsNetwork, IComparer<Player>
 		CallRPC(SetColor, c.r, c.g, c.b);
 	}
 
-	[RPC]
+	[PunRPC]
 	private void SetCarId(int obj)
 	{
 		carIdSet = true;
@@ -785,33 +787,33 @@ public class Player : bsNetwork, IComparer<Player>
 		carSkin = bs._Loader.GetCarSkin(replay.carSkin, IsMine);
 	}
 
-	[RPC]
+	[PunRPC]
 	private void SetAvatar(int Obj)
 	{
 		replay.avatarId = Obj;
 	}
 
-	[RPC]
+	[PunRPC]
 	public void SetEnabled()
 	{
 		base.enabled = true;
 	}
 
-	[RPC]
+	[PunRPC]
 	public void SetAvatarUrl(string s)
 	{
 		MonoBehaviour.print(s);
 		replay.avatarUrl = s;
 	}
 
-	[RPC]
+	[PunRPC]
 	public void SetNick2(string Obj)
 	{
 		playerNameTxt2.text = Trn(Obj);
 		replay.playerName = Obj;
 	}
 
-	[RPC]
+	[PunRPC]
 	private void SetFinnishTime(float fin)
 	{
 		float num3 = replay.finnishTime = (finnishTime = fin);
@@ -1948,7 +1950,7 @@ public class Player : bsNetwork, IComparer<Player>
 		}
 	}
 
-	[RPC]
+	[PunRPC]
 	private void Jump()
 	{
 		PlayOneShot(bs.res.jump, 1f);
@@ -2400,7 +2402,7 @@ public class Player : bsNetwork, IComparer<Player>
 	{
 	}
 
-	[RPC]
+	[PunRPC]
 	public void SendAudio(byte[] data, int length, int id)
 	{
 		replay.voiceChatTime = Time.realtimeSinceStartup;
@@ -2731,7 +2733,7 @@ public class Player : bsNetwork, IComparer<Player>
 		}
 	}
 
-	[RPC]
+	[PunRPC]
 	public void SetKey(int keycode, bool down)
 	{
 		if (down)
@@ -2880,7 +2882,7 @@ public class Player : bsNetwork, IComparer<Player>
 		}
 	}
 
-	[RPC]
+	[PunRPC]
 	public void Kick()
 	{
 		if (this == bs._Player)
@@ -2969,7 +2971,7 @@ public class Player : bsNetwork, IComparer<Player>
 		}
 	}
 
-	[RPC]
+	[PunRPC]
 	internal void Mute(int time)
 	{
 		if (bs._Player == this)
@@ -3067,19 +3069,19 @@ public class Player : bsNetwork, IComparer<Player>
 		}
 	}
 
-	[RPC]
+	[PunRPC]
 	public void Shoot(int plId, Vector3 dist, PhotonMessageInfo info)
 	{
 		curWeapon.Shoot(plId, dist, info);
 	}
 
-	[RPC]
+	[PunRPC]
 	public void SetTeam(int team)
 	{
 		replay.team = (Team)team;
 	}
 
-	[RPC]
+	[PunRPC]
 	public void Die2(int k)
 	{
 		dead = true;
@@ -3096,7 +3098,7 @@ public class Player : bsNetwork, IComparer<Player>
 		}
 	}
 
-	[RPC]
+	[PunRPC]
 	public void Explode(Vector3 pos)
 	{
 		//IL_0050: Unknown result type (might be due to invalid IL or missing references)
@@ -3117,7 +3119,7 @@ public class Player : bsNetwork, IComparer<Player>
 		}));
 	}
 
-	[RPC]
+	[PunRPC]
 	public void Reset2(PhotonMessageInfo info)
 	{
 		killedBy = null;
@@ -3175,7 +3177,7 @@ public class Player : bsNetwork, IComparer<Player>
 		bs._Game.cursorTexture2.enabled = false;
 	}
 
-	[RPC]
+	[PunRPC]
 	public void SelectWeapon(int id)
 	{
 		curWeaponId = id;
@@ -3193,20 +3195,20 @@ public class Player : bsNetwork, IComparer<Player>
 		return "#" + color.r.ToString("X2") + color.g.ToString("X2") + color.b.ToString("X2") + color.a.ToString("X2");
 	}
 
-	[RPC]
+	[PunRPC]
 	public void SetScore2(float score)
 	{
 		this.score = score;
 	}
 
 	[Obsolete]
-	[RPC]
+	[PunRPC]
 	public void SetScore(int score)
 	{
 		this.score = score;
 	}
 
-	[RPC]
+	[PunRPC]
 	internal void SetLife(float nlife, int killer)
 	{
 		if (Time.time - spawnTime < 5f)
@@ -3246,19 +3248,19 @@ public class Player : bsNetwork, IComparer<Player>
 		}
 	}
 
-	[RPC]
+	[PunRPC]
 	internal void Freeze()
 	{
 		freezeTime = Time.time;
 	}
 
-	[RPC]
+	[PunRPC]
 	internal void SetOnFire()
 	{
 		fireTime = Time.time;
 	}
 
-	[RPC]
+	[PunRPC]
 	internal void SetLife2(float obj)
 	{
 		life = obj;
@@ -3275,7 +3277,7 @@ public class Player : bsNetwork, IComparer<Player>
 		playerNameTxt2.text = text;
 	}
 
-	[RPC]
+	[PunRPC]
 	public void SetShoot(bool b)
 	{
 		curWeapon.SetShoot(b);

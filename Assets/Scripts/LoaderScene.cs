@@ -1,5 +1,6 @@
 using System;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class LoaderScene : GuiClasses
 {
@@ -9,7 +10,7 @@ public class LoaderScene : GuiClasses
 
 	private float width;
 
-	public GUIText medalText;
+	public Text medalText;
 
 	private static int medalsChangeSended;
 

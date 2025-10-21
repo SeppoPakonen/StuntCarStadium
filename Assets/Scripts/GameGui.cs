@@ -1,5 +1,6 @@
 using System;
 using UnityEngine;
+using Photon.Pun;
 
 public class GameGui : bsNetwork
 {
@@ -60,7 +61,7 @@ public class GameGui : bsNetwork
 		lastHelpTime = Time.time + time;
 	}
 
-	[RPC]
+	[PunRPC]
 	public void Chat(string Obj)
 	{
 		if (bs._Loader.enableChat)

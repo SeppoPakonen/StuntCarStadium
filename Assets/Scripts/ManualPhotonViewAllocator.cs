@@ -1,4 +1,5 @@
 using UnityEngine;
+using Photon.Pun;
 
 [RequireComponent(typeof(PhotonView))]
 public class ManualPhotonViewAllocator : MonoBehaviour
@@ -17,7 +18,7 @@ public class ManualPhotonViewAllocator : MonoBehaviour
 		photonView.RPC("InstantiateRpc", PhotonTargets.AllBuffered, num);
 	}
 
-	[RPC]
+	[PunRPC]
 	public void InstantiateRpc(int viewID)
 	{
 		GameObject gameObject = Object.Instantiate((Object)Prefab, InputToEvent.inputHitPos + new Vector3(0f, 5f, 0f), Quaternion.identity) as GameObject;

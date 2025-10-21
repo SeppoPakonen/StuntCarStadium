@@ -1,6 +1,8 @@
 using LitJson;
 using System.Collections;
 using UnityEngine;
+using UnityEngine.Networking;
+using UnityEngine.UI;
 
 [ExecuteInEditMode]
 public class FaceBookTest : MonoBehaviour
@@ -17,17 +19,17 @@ public class FaceBookTest : MonoBehaviour
 
 	public GameObject obj;
 
-	public GUIText text1;
+	public Text text1;
 
-	public GUIText text2;
+	public Text text2;
 
-	public GUIText text3;
+	public Text text3;
 
-	public GUIText text4;
+	public Text text4;
 
-	public GUIText text5;
+	public Text text5;
 
-	public GUIText text6;
+	public Text text6;
 
 	public tipoGui tipo;
 
@@ -71,17 +73,35 @@ public class FaceBookTest : MonoBehaviour
 
 	public IEnumerator getImage(string _imageURL)
 	{
-		WWW www = new WWW(_imageURL);
-		yield return www;
-		foto.normal.background = www.texture;
+		UnityWebRequest www = UnityWebRequestTexture.GetTexture(_imageURL);
+		yield return www.SendWebRequest();
+		
+		if (www.result != UnityWebRequest.Result.Success)
+		{
+			Debug.LogError(www.error);
+		}
+		else
+		{
+			Texture2D texture = ((DownloadHandlerTexture)www.downloadHandler).texture;
+			foto.normal.background = texture;
+		}
 	}
 
 	public IEnumerator getInfoFriends(string texto)
 	{
-		WWW www = new WWW(texto);
-		yield return www;
-		friendsinfo = JsonMapper.ToObject(www.text);
-		buildfriends();
+		UnityWebRequest www = UnityWebRequest.Get(texto);
+		yield return www.SendWebRequest();
+		
+		if (www.result != UnityWebRequest.Result.Success)
+		{
+			Debug.LogError(www.error);
+		}
+		else
+		{
+			string text = www.downloadHandler.text;
+			friendsinfo = JsonMapper.ToObject(text);
+			buildfriends();
+		}
 	}
 
 	private void buildfriends()

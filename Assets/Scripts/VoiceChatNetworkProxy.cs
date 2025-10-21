@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using UnityEngine;
+using Photon.Pun;
 
 public class VoiceChatNetworkProxy : MonoBehaviour
 {
@@ -38,7 +39,7 @@ public class VoiceChatNetworkProxy : MonoBehaviour
 		packets.Enqueue(packet);
 	}
 
-	[RPC]
+	[PunRPC]
 	private void SetNetworkId(int networkId)
 	{
 		VoiceChatRecorder.Instance.NetworkId = networkId;

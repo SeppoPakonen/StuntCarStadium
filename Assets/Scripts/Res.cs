@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Networking;
 
 public class Res : MonoBehaviour
 {
@@ -103,7 +104,12 @@ public class Res : MonoBehaviour
 
 	public PhysicMaterial border;
 
-	private Dictionary<string, WWW> avatarWww = new Dictionary<string, WWW>();
+	private Dictionary<string, UnityWebRequest> avatarWww = new Dictionary<string, UnityWebRequest>();
+	
+	private IEnumerator SendWebRequest(UnityWebRequest www)
+	{
+		yield return www.SendWebRequest();
+	}
 
 	private Dictionary<string, Texture2D> avatarWT = new Dictionary<string, Texture2D>();
 
@@ -218,7 +224,8 @@ public class Res : MonoBehaviour
 		{
 			if (!avatarWww.ContainsKey(avatar))
 			{
-				avatarWww[avatar] = new WWW(avatar);
+				avatarWww[avatar] = UnityWebRequestTexture.GetTexture(avatar);
+				bs._Loader.StartCoroutine(SendWebRequest(avatarWww[avatar]));
 			}
 			if (avatarWT.TryGetValue(avatar, out Texture2D value))
 			{

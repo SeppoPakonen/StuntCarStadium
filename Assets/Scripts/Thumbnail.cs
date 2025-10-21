@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Networking;
 
 [Serializable]
 public class Thumbnail
@@ -10,7 +11,7 @@ public class Thumbnail
 
 	public string name;
 
-	public WWW w;
+	public UnityWebRequest w;
 
 	public Material m;
 
@@ -54,14 +55,14 @@ public class Thumbnail
 		{
 			yield break;
 		}
-		w = new WWW(url);
-		yield return w;
-		if (w.error != null)
+		w = UnityWebRequestTexture.GetTexture(url);
+		yield return w.SendWebRequest();
+		if (w.result != UnityWebRequest.Result.Success)
 		{
 			Debug.Log(w.error + url);
 			yield break;
 		}
-		Texture2D t = w.textureNonReadable;
+		Texture2D t = ((DownloadHandlerTexture)w.downloadHandler).texture;
 		m.mainTexture = t;
 		if (t.format == TextureFormat.ARGB32)
 		{

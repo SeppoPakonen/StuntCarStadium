@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Networking;
 
 public class MiObjeto : MonoBehaviour
 {
@@ -35,9 +36,16 @@ public class MiObjeto : MonoBehaviour
 
 	public IEnumerator getImage(string imageURL)
 	{
-		WWW www = new WWW(imageURL);
-		yield return www;
-		Texture2D foto = www.texture;
-		objfoto.get_renderer().material.mainTexture = foto;
+		UnityWebRequest www = UnityWebRequestTexture.GetTexture(imageURL);
+		yield return www.SendWebRequest();
+		if (www.result != UnityWebRequest.Result.Success)
+		{
+			Debug.LogError(www.error);
+		}
+		else
+		{
+			Texture2D foto = ((DownloadHandlerTexture)www.downloadHandler).texture;
+			objfoto.get_renderer().material.mainTexture = foto;
+		}
 	}
 }

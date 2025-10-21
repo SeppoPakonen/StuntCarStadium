@@ -13,6 +13,8 @@ using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading;
 using UnityEngine;
+using UnityEngine.UI;
+using Photon.Pun;
 
 public class Loader : GuiClasses
 {
@@ -93,9 +95,9 @@ public class Loader : GuiClasses
 
 	public new Awards _Awards;
 
-	public GUIText guiText;
+	public Text guiText;
 
-	public GUIText guiTextRight;
+	public Text guiTextRight;
 
 	internal string url = string.Empty;
 
@@ -113,7 +115,7 @@ public class Loader : GuiClasses
 
 	internal int wonMedals;
 
-	public static WWW mapWww;
+	public static UnityWebRequest mapWww;
 
 	internal static string lastLog = string.Empty;
 
@@ -233,7 +235,7 @@ public class Loader : GuiClasses
 
 	internal float lastTextTime = float.MinValue;
 
-	public GUIText CenterText;
+	public Text CenterText;
 
 	public GUITexture CenterTextBackground;
 
@@ -2555,7 +2557,7 @@ public void Update()
 		centerTextBackground.enabled = enabled;
 	}
 
-	[RPC]
+	[PunRPC]
 	public void centerText(string s, float seconds = 4f)
 	{
 		stringTime stringTime = default(stringTime);

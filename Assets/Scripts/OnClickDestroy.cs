@@ -1,5 +1,6 @@
 using Photon;
 using UnityEngine;
+using Photon.Pun;
 
 [RequireComponent(typeof(PhotonView))]
 public class OnClickDestroy : Photon.MonoBehaviour
@@ -18,7 +19,7 @@ public class OnClickDestroy : Photon.MonoBehaviour
 		}
 	}
 
-	[RPC]
+	[PunRPC]
 	public void DestroyRpc()
 	{
 		Object.Destroy(base.gameObject);

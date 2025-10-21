@@ -8,6 +8,7 @@ using System.Reflection;
 using System.Security.Cryptography;
 using System.Text;
 using UnityEngine;
+using UnityEngine.Networking;
 
 public class bs : Base
 {
@@ -340,7 +341,7 @@ public class bs : Base
 		return v;
 	}
 
-	public static WWW Download2(string s, Action<string> a, bool post, params object[] prms)
+	public static UnityWebRequest Download2(string s, Action<string> a, bool post, params object[] prms)
 	{
 		return Download(s, delegate(string txt, bool b)
 		{
@@ -348,7 +349,7 @@ public class bs : Base
 		}, post, prms);
 	}
 
-	public static WWW DownloadAcc(string s, Action<string, bool> a, bool post, params object[] prms)
+	public static UnityWebRequest DownloadAcc(string s, Action<string, bool> a, bool post, params object[] prms)
 	{
 		if (guest)
 		{
@@ -404,17 +405,17 @@ public class bs : Base
 		return GetTransforms(ts).Select<Transform, T>((Func<Transform, T>)((Transform a) => a.GetComponent<T>())).Where((Func<T, bool>)((T a) => (UnityEngine.Object)a != (UnityEngine.Object)null));
 	}
 
-	public static WWW Download(string s, Action<string, bool> a, bool post, params object[] prms)
+	public static UnityWebRequest Download(string s, Action<string, bool> a, bool post, params object[] prms)
 	{
 		s = Uri.EscapeUriString(s);
 		StringBuilder stringBuilder = new StringBuilder();
-		WWW wWW;
+		UnityWebRequest wWW;
 		if (prms.Length > 0)
 		{
-			WWWForm wWWForm = new WWWForm();
-			for (int i = 0; i < prms.Length; i += 2)
+			if (post)
 			{
-				if (post)
+				WWWForm wWWForm = new WWWForm();
+				for (int i = 0; i < prms.Length; i += 2)
 				{
 					if (prms[i + 1] is byte[])
 					{
@@ -424,15 +425,31 @@ public class bs : Base
 					{
 						wWWForm.AddField(prms[i].ToString(), prms[i + 1].ToString());
 					}
+					stringBuilder.Append((i == 0) ? "?" : "&");
+					stringBuilder.Append(string.Concat(prms[i], "=", WWW.EscapeURL(prms[i + 1].ToString())));
 				}
-				stringBuilder.Append((i == 0) ? "?" : "&");
-				stringBuilder.Append(string.Concat(prms[i], "=", WWW.EscapeURL(prms[i + 1].ToString())));
+				wWW = UnityWebRequest.Post(s, wWWForm);
 			}
-			wWW = ((!post) ? new WWW(s + stringBuilder) : new WWW(s, wWWForm));
+			else
+			{
+				for (int i = 0; i < prms.Length; i += 2)
+				{
+					stringBuilder.Append((i == 0) ? "?" : "&");
+					stringBuilder.Append(string.Concat(prms[i], "=", WWW.EscapeURL(prms[i + 1].ToString())));
+				}
+				wWW = UnityWebRequest.Get(s + stringBuilder);
+			}
 		}
 		else
 		{
-			wWW = new WWW(s);
+			if (post)
+			{
+				wWW = UnityWebRequest.Post(s, new WWWForm());
+			}
+			else
+			{
+				wWW = UnityWebRequest.Get(s);
+			}
 		}
 		string text = (!post) ? wWW.url : (wWW.url + stringBuilder);
 		MonoBehaviour.print(text);
@@ -447,12 +464,12 @@ public class bs : Base
 		return wWW;
 	}
 
-	private static IEnumerator DownloadCor(Action<string, bool> a, WWW w, string url)
+	private static IEnumerator DownloadCor(Action<string, bool> a, UnityWebRequest w, string url)
 	{
 		bool hasCache = UnityEngine.PlayerPrefs.HasKey(url) && setting.wwwCache;
 		if (!hasCache)
 		{
-			yield return w;
+			yield return w.SendWebRequest();
 		}
 		if (setting.delayLoading)
 		{
@@ -461,18 +478,18 @@ public class bs : Base
 		if (!hasCache && string.IsNullOrEmpty(w.error))
 		{
 			string text;
-			string trim = text = w.text.Trim();
+			string trim = text = w.downloadHandler.text.Trim();
 			if ((!text.StartsWith("<") || !trim.EndsWith(">")) && !setting.offline)
 			{
 				if (a != null)
 				{
 					if (!Application.isWebPlayer)
 					{
-						PlayerPrefs.SetString2(url, w.text);
+						PlayerPrefs.SetString2(url, w.downloadHandler.text);
 					}
-					a.Invoke(w.text, true);
+					a.Invoke(w.downloadHandler.text, true);
 				}
-				UnityEngine.Debug.Log("reply from " + url + "\n" + w.text);
+				UnityEngine.Debug.Log("reply from " + url + "\n" + w.downloadHandler.text);
 				yield break;
 			}
 		}
@@ -485,7 +502,8 @@ public class bs : Base
 			}
 			else
 			{
-				a.Invoke((w.error != null) ? w.error : ("Failed to Parse" + w.text), false);
+				string errorText = (w.result != UnityWebRequest.Result.Success) ? w.error : ("Failed to Parse" + w.downloadHandler.text);
+				a.Invoke(errorText, false);
 			}
 		}
 		if (!hasCache)

@@ -1,4 +1,5 @@
 using UnityEngine;
+using Photon.Pun;
 
 public class Flag : bsNetwork
 {
@@ -87,7 +88,7 @@ public class Flag : bsNetwork
 		flagIcon.color = ((team != Team.Blue) ? Color.red : Color.blue) - new Color(0f, 0f, 0f, Mathf.Min(0.9f, (bs._Player.pos - base.pos).magnitude / 400f));
 	}
 
-	[RPC]
+	[PunRPC]
 	public void ResetPos(bool play)
 	{
 		told = false;
@@ -101,7 +102,7 @@ public class Flag : bsNetwork
 		rot = Quaternion.identity;
 	}
 
-	[RPC]
+	[PunRPC]
 	public void DropFlag(Vector3 pos)
 	{
 		MonoBehaviour.print("Drop Flag");
@@ -118,7 +119,7 @@ public class Flag : bsNetwork
 		base.OnPlConnected();
 	}
 
-	[RPC]
+	[PunRPC]
 	public void SetOwner(int id)
 	{
 		MonoBehaviour.print("Set FlagOwner " + id + " ph" + bs._Game.photonPlayers.Count);

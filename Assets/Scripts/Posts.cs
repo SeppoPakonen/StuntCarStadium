@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using UnityEngine;
+using UnityEngine.Networking;
 
 [Serializable]
 public class Posts
@@ -23,9 +24,16 @@ public class Posts
 	{
 		if (!string.IsNullOrEmpty(imageUrl))
 		{
-			WWW w = new WWW(imageUrl);
-			yield return w;
-			image = w.texture;
+			UnityWebRequest w = UnityWebRequestTexture.GetTexture(imageUrl);
+			yield return w.SendWebRequest();
+			if (w.result != UnityWebRequest.Result.Success)
+			{
+				Debug.LogError(w.error);
+			}
+			else
+			{
+				image = ((DownloadHandlerTexture)w.downloadHandler).texture;
+			}
 		}
 	}
 }
