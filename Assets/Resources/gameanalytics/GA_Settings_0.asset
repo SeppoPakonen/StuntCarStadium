@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 367c60fc5a65aeb0fef65af976ca0050, type: 3}
+  m_Name: GA_Settings
+  m_EditorClassIdentifier:
+  TotalMessagesSubmitted: 1940
+  TotalMessagesFailed: 19147
+  DesignMessagesSubmitted: 1699
+  DesignMessagesFailed: 0
+  QualityMessagesSubmitted: 217
+  QualityMessagesFailed: 15945
+  ErrorMessagesSubmitted: 24
+  ErrorMessagesFailed: 3202
+  BusinessMessagesSubmitted: 0
+  BusinessMessagesFailed: 0
+  UserMessagesSubmitted: 0
+  UserMessagesFailed: 0
+  CustomArea:
+  TrackTarget: {fileID: 0}
+  GameKey: 4bfc66c86dd09ee2094d14f4b7e93150
+  SecretKey: 0d96ce8bb098f83c76e70cfaa2a273b9b7326764
+  ApiKey: 5cb034b6d0abbbe61a5b4f28dd334d06f2b384f5
+  Build: 1234
+  DebugMode: 0
+  DebugAddEvent: 0
+  SendExampleGameDataToMyGame: 0
+  RunInEditorPlayMode: 1
+  UseBundleVersion: 0
+  AllowRoaming: 1
+  ArchiveData: 1
+  NewSessionOnResume: 1
+  AutoSubmitUserInfo: 1
+  HeatmapGridSize: {x: 1, y: 1, z: 1}
+  CustomUserID: 0
+  SubmitInterval: 10
+  InternetConnectivity: 1
+  CurrentInspectorState: 2
+  ClosedHints:
+  DisplayHints: 0
+  DisplayHintsScrollState: {x: 0, y: 0}
+  Logo: {fileID: 2800000, guid: 8fedfaf8c4041ae499ceb7981a5e4bdf, type: 3}
+  UpdateIcon: {fileID: 2800000, guid: a447ea8b035f8874aa24bd50fb9abf49, type: 3}

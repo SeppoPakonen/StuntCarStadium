@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: 5f85ad6e
+  m_Shader: {fileID: 4800000, guid: d3fc711ecf823204db85cb33a904f578, type: 3}
+  m_ShaderKeywords: []
+  m_CustomRenderQueue: -1
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+    - first:
+        name: _MainTex
+      second:
+        m_Texture: {fileID: 2800000, guid: 8a1dd878b08edaa45a9d80cda54a5249, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _Cube
+      second:
+        m_Texture: {fileID: 8900000, guid: c655e0e90b75fad4e9b550da9f3b0df0, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - first:
+        name: _Shininess
+      second: 4
+    - first:
+        name: _SpecInt
+      second: 1
+    - first:
+        name: _Fresnel
+      second: 0
+    m_Colors:
+    - first:
+        name: _Color
+      second: {r: 0.6764706, g: 0.6764706, b: 0.6764706, a: 1}
+    - first:
+        name: _SpecColor
+      second: {r: 1, g: 1, b: 1, a: 1}
+    - first:
+        name: _ReflectColor
+      second: {r: 0.5955882, g: 0.5955882, b: 0.5955882, a: 0.5019608}
+    - first:
+        name: _Color2
+      second: {r: 0.5514706, g: 0.5514706, b: 0.5514706, a: 1}

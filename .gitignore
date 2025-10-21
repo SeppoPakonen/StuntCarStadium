@@ -4,7 +4,7 @@
 /[Oo]bj/
 /[Bb]uild/
 /[Bb]uilds/
-/Assets/
+/Assets/AssetStoreTools*
 
 # Visual Studio / Rider
 .vs/
@@ -35,16 +35,33 @@ sysinfo.txt
 *.mem
 
 # Builds
+[Bb]uild*/
+[Bb]uilds/
 *.apk
 *.unitypackage
+
+# Binary files
+*.so
+*.o
+*.a
+*.debug
+*.dll
+*.dat
 
 # Log files
 *.log
 *.stackdump
+build.log
+build_attempt.log
+build_fixed.log
 
 # Backup files
 *.bak
 *.backup
+
+# Mic check files
+mic_check*.sh
+MicCheck*/
 
 # Build output files
 build_output.log
@@ -55,9 +72,6 @@ unity_build.log
 
 # Crash reports
 mono_crash.*
-
-# Exclude the Assets folder as requested
-Assets/
 
 # NuGet
 *.nuget.props

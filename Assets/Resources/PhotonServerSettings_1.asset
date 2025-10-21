@@ -1,0 +1,90 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20b2ff862084fa5dae619c96b29b0bf2, type: 3}
+  m_Name: PhotonServerSettings
+  m_EditorClassIdentifier:
+  HostType: 1
+  ServerAddress: app-eu.exitgamescloud.com
+  ServerPort: 5055
+  AppID: b90a7a4a-76bd-4a88-aa30-5f159b31f69a
+  RpcList:
+  - Marco
+  - Polo
+  - TaggedPlayer
+  - SetPosition
+  - Chat
+  - InstantiateRpc
+  - OnAwakeRPC
+  - DestroyRpc
+  - SetFinnishTime
+  - SetKey
+  - SetCarId
+  - SetAvatar
+  - SetNick
+  - SetNetworkId
+  - SendAudio
+  - Explode
+  - VoiceChat
+  - SetStartTime
+  - OnPlConnected
+  - SetLife
+  - SetShoot
+  - Shoot
+  - Die2
+  - SetScore
+  - Reset2
+  - SetLife2
+  - SetColor
+  - SetEnabled
+  - SetNick2
+  - SetClanTag
+  - SetAlly
+  - Kick
+  - SetTeam
+  - SetDefLife
+  - ResetPos
+  - DropFlag
+  - SetOwner
+  - centerText
+  - FlagCaptured
+  - Mute
+  - Jump
+  - SetAvatarUrl
+  - EndGame
+  - EndGame3
+  - SetScore2
+  - SelectWeapon
+  - SetOnFire
+  - Freeze
+  - SetSpeedLimit
+  - SetRank
+  - SetMod
+  - Hit2
+  - SetDead
+  - SetPos
+  - Hit
+  - SetLevelTime
+  - SetStartTime_mp
+  - VoteMute
+  - SetTeamScore
+  - SetKills
+  - SetDeaths
+  - Reset
+  - EndMatch
+  - SetTimeCount
+  - SetGameState
+  - TimeLimit
+  - SetTimeCountRace
+  - SetZombieKills
+  - SetWasCop
+  - SetLife3
+  - SetVel
+  DisableAutoOpenWizard: 0

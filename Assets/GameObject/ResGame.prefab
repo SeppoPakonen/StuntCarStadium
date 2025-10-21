@@ -1,0 +1,1279 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1008824604942189
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4708414770422149}
+  - 114: {fileID: 114503627216506460}
+  m_Layer: 0
+  m_Name: ResGame
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4708414770422149
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1008824604942189}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &114503627216506460
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1008824604942189}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09332cb1da7246fec7f4b43d05df87b2, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  ForceCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 1.137127
+      value: 46.291405
+      inSlope: -333.33203
+      outSlope: -0.2008059
+    - time: 150.79391
+      value: 16.239439
+      inSlope: -0.2008059
+      outSlope: -0.039170846
+    - time: 253.62167
+      value: 12.211589
+      inSlope: -0.039170846
+      outSlope: -0.0077953706
+    - time: 501.15134
+      value: 10.282003
+      inSlope: -0.0077953706
+      outSlope: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  RotCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 2.5
+      inSlope: -25.000093
+      outSlope: -0.024889711
+    - time: 19.913795
+      value: 2.0043514
+      inSlope: -0.024889711
+      outSlope: -0.0023684136
+    - time: 360.05878
+      value: 1.1987474
+      inSlope: -0.0023684136
+      outSlope: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  rotationStart: 12
+  speedSubOnRotate: 0.09
+  shaders:
+  - {fileID: 4800000, guid: bf4c7caf50d7b1f468b72db3768421a9, type: 3}
+  - {fileID: 4800000, guid: 647f2ca89faaa034dab720b97d20ebb6, type: 3}
+  - {fileID: 4800000, guid: fba28a432356066499622811950831bd, type: 3}
+  cubeMap: {fileID: 8900000, guid: 67f119dcf0d3cae4db23cbce127be017, type: 3}
+  gears:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 6.420105
+      outSlope: 6.420105
+    - time: 0.09793667
+      value: 0.6287637
+      inSlope: 3.4158232
+      outSlope: 0.7321269
+    - time: 1
+      value: 1
+      inSlope: 0.4115413
+      outSlope: 0.4115413
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  hitSound:
+  - {fileID: 8300000, guid: 5ff757575ac28264ab0b6a35c6863399, type: 3}
+  - {fileID: 8300000, guid: 2a7e23c3183e5704a8bbfeac6a9cfaff, type: 3}
+  - {fileID: 8300000, guid: c8e601461b9313344a379d242db13c58, type: 3}
+  hitSoundBig:
+  - {fileID: 8300000, guid: c16fd68d34fd7534896fc8c436240d62, type: 3}
+  - {fileID: 8300000, guid: 2ed3cc84f8208734eb31d2b8c9d7089e, type: 3}
+  - {fileID: 8300000, guid: 2e933b9590edece45ac29401a6400642, type: 3}
+  reflect: {fileID: 4800000, guid: 5712d34191dec924b883ac2cf92756b5, type: 3}
+  diffuse: {fileID: 4800000, guid: c0dcff0895d7afb40bc851f825e27a3a, type: 3}
+  specular: {fileID: 4800000, guid: a78b249416fcc4840828882ce56729bc, type: 3}
+  transparment: {fileID: 4800000, guid: a98e71ef4b1e8974f9507c61ee1d6033, type: 3}
+  transparmentCutout: {fileID: 4800000, guid: f4aa187f57d68b442b5fc6cd6e5ccccb, type: 3}
+  go123:
+  - {fileID: 2800000, guid: 95861e9c636ad16459e0067df9176118, type: 3}
+  - {fileID: 2800000, guid: 18dc0ff1726b8ad48a253bcf37173760, type: 3}
+  - {fileID: 2800000, guid: 5aee5dfa338856544942deb7da8d132b, type: 3}
+  - {fileID: 2800000, guid: b7c3a332a6a814b468b49c9069532242, type: 3}
+  medals:
+  - {fileID: 2800000, guid: c5b97bdac111c844fb2fd0bc439327ac, type: 3}
+  - {fileID: 2800000, guid: ccfe1806acb237e4888abe8663ae46bc, type: 3}
+  - {fileID: 2800000, guid: ee66c60a8939cac46ad2af994caf7e54, type: 3}
+  - {fileID: 2800000, guid: b72fde75b27885248a75be1f30c4bf4c, type: 3}
+  speedUp: {fileID: 8300000, guid: 86f315e7a1252834489867c6cdba64a0, type: 3}
+  bip: {fileID: 8300000, guid: 180dda81bb570d3418fde1fc5c4e355b, type: 3}
+  start: {fileID: 8300000, guid: c437c2d4a0176b54a84241b3166e492d, type: 3}
+  checkPoint: {fileID: 8300000, guid: ffc40964be3396b44a475d672db93c9a, type: 3}
+  idle: {fileID: 8300000, guid: 043874ddcc2bc4f408b082a62a2e7321, type: 3}
+  wind: {fileID: 8300000, guid: 63c45a912c7486e499dff3d7038b8f41, type: 3}
+  speedUpPrefab: {fileID: 1413538551748196, guid: 90a391a86069abb439117f3bb54a5a2f, type: 2}
+  checkPointPrefab: {fileID: 1236473831533268, guid: 7172250c37432d945a5d2f88962eef2c, type: 2}
+  _Game: {fileID: 114662826453902486, guid: ce1a8606f059b6f42b11115f6cd8af71, type: 2}
+  brake: {fileID: 8300000, guid: 72386cd0c3877644997b4f693a535921, type: 3}
+  mudBrake: {fileID: 8300000, guid: 03699765949740f4391114b5eba34e05, type: 3}
+  motor:
+  - {fileID: 8300000, guid: c650ba10d96b51e4386413f68b33d7db, type: 3}
+  - {fileID: 0}
+  CarSkins:
+  - prefabName: carF1
+    horn: []
+    TopSpeed: 4
+    Speed: 0
+    Rotation: 4
+    Drift: 0
+    mass: 0
+    flyRotation: 1
+    friendsNeeded: 0
+    medalsNeeded: 0
+    repNeeded: 0
+    allMedals: 0
+    engineSound: {fileID: 8300000, guid: c650ba10d96b51e4386413f68b33d7db, type: 3}
+    hidden: 0
+    canPickColor: 0
+  - prefabName: angry
+    horn: []
+    TopSpeed: 4
+    Speed: 0
+    Rotation: 4
+    Drift: 1
+    mass: 2
+    flyRotation: 0
+    friendsNeeded: 0
+    medalsNeeded: 12
+    repNeeded: 0
+    allMedals: 0
+    engineSound: {fileID: 8300000, guid: c650ba10d96b51e4386413f68b33d7db, type: 3}
+    hidden: 0
+    canPickColor: 0
+  - prefabName: Model_Misc_Buggy
+    horn: []
+    TopSpeed: 2
+    Speed: 1
+    Rotation: 3
+    Drift: 2
+    mass: 1
+    flyRotation: 0
+    friendsNeeded: 0
+    medalsNeeded: 25
+    repNeeded: 0
+    allMedals: 0
+    engineSound: {fileID: 8300000, guid: c650ba10d96b51e4386413f68b33d7db, type: 3}
+    hidden: 0
+    canPickColor: 0
+  - prefabName: Model_Cars_HotRod
+    horn: []
+    TopSpeed: 3
+    Speed: 1
+    Rotation: 3
+    Drift: 1
+    mass: 3
+    flyRotation: 0
+    friendsNeeded: 0
+    medalsNeeded: 38
+    repNeeded: 0
+    allMedals: 0
+    engineSound: {fileID: 8300000, guid: c650ba10d96b51e4386413f68b33d7db, type: 3}
+    hidden: 0
+    canPickColor: 0
+  - prefabName: Model_Cars_PoliceCar
+    horn:
+    - {fileID: 8300000, guid: 8eb809f95d7d67f4c9db4eee6de996b1, type: 3}
+    - {fileID: 8300000, guid: 86cb9711e592b4947a3f62c323aac9d4, type: 3}
+    TopSpeed: 3
+    Speed: 2
+    Rotation: 2
+    Drift: 2
+    mass: 2
+    flyRotation: 0
+    friendsNeeded: 0
+    medalsNeeded: 51
+    repNeeded: 0
+    allMedals: 0
+    engineSound: {fileID: 8300000, guid: c650ba10d96b51e4386413f68b33d7db, type: 3}
+    hidden: 0
+    canPickColor: 0
+  - prefabName: OreoCar
+    horn: []
+    TopSpeed: 4
+    Speed: 2
+    Rotation: 2
+    Drift: 0
+    mass: 1
+    flyRotation: 0
+    friendsNeeded: 0
+    medalsNeeded: 64
+    repNeeded: 0
+    allMedals: 0
+    engineSound: {fileID: 8300000, guid: c650ba10d96b51e4386413f68b33d7db, type: 3}
+    hidden: 0
+    canPickColor: 0
+  - prefabName: toy
+    horn: []
+    TopSpeed: 4
+    Speed: 3
+    Rotation: 1
+    Drift: 0
+    mass: 0
+    flyRotation: 0
+    friendsNeeded: 0
+    medalsNeeded: 76
+    repNeeded: 0
+    allMedals: 0
+    engineSound: {fileID: 8300000, guid: e9ce35839b87c5d4da72f048f52c3d64, type: 3}
+    hidden: 0
+    canPickColor: 0
+  - prefabName: 4wkolota
+    horn: []
+    TopSpeed: 4
+    Speed: 4
+    Rotation: 2
+    Drift: 4
+    mass: 4
+    flyRotation: 0
+    friendsNeeded: 0
+    medalsNeeded: 89
+    repNeeded: 30
+    allMedals: 0
+    engineSound: {fileID: 8300000, guid: c650ba10d96b51e4386413f68b33d7db, type: 3}
+    hidden: 0
+    canPickColor: 0
+  - prefabName: Baked_A_Roadster
+    horn: []
+    TopSpeed: 4
+    Speed: 4
+    Rotation: 0
+    Drift: 0
+    mass: 2
+    flyRotation: 0
+    friendsNeeded: 0
+    medalsNeeded: 102
+    repNeeded: 30
+    allMedals: 0
+    engineSound: {fileID: 8300000, guid: c650ba10d96b51e4386413f68b33d7db, type: 3}
+    hidden: 0
+    canPickColor: 0
+  - prefabName: Baked_E_Carrying
+    horn:
+    - {fileID: 8300000, guid: 8eb809f95d7d67f4c9db4eee6de996b1, type: 3}
+    - {fileID: 8300000, guid: 86cb9711e592b4947a3f62c323aac9d4, type: 3}
+    TopSpeed: 4
+    Speed: 4
+    Rotation: 0
+    Drift: 2
+    mass: 4
+    flyRotation: 0
+    friendsNeeded: 0
+    medalsNeeded: 150
+    repNeeded: 50
+    allMedals: 0
+    engineSound: {fileID: 8300000, guid: c650ba10d96b51e4386413f68b33d7db, type: 3}
+    hidden: 0
+    canPickColor: 1
+  - prefabName: Baked_A_VanArmoured
+    horn:
+    - {fileID: 8300000, guid: 8eb809f95d7d67f4c9db4eee6de996b1, type: 3}
+    - {fileID: 8300000, guid: 86cb9711e592b4947a3f62c323aac9d4, type: 3}
+    TopSpeed: 4
+    Speed: 4
+    Rotation: 0
+    Drift: 1
+    mass: 4
+    flyRotation: 0
+    friendsNeeded: 0
+    medalsNeeded: 150
+    repNeeded: 50
+    allMedals: 0
+    engineSound: {fileID: 8300000, guid: c650ba10d96b51e4386413f68b33d7db, type: 3}
+    hidden: 1
+    canPickColor: 0
+  scenes:
+  - name: a02
+    title:
+    nitro: 0
+    j: 0
+    mapId: 10000000
+    mapBy:
+    userMap: 0
+    rating: 0
+    FinnishPos: {x: 0, y: 0, z: 0}
+  - name: a5
+    title:
+    nitro: 0
+    j: 0
+    mapId: 10000001
+    mapBy:
+    userMap: 0
+    rating: 0
+    FinnishPos: {x: 0, y: 0, z: 0}
+  - name: a06
+    title:
+    nitro: 0
+    j: 0
+    mapId: 10000002
+    mapBy:
+    userMap: 0
+    rating: 0
+    FinnishPos: {x: 0, y: 0, z: 0}
+  - name: a07
+    title:
+    nitro: 0
+    j: 0
+    mapId: 10000003
+    mapBy:
+    userMap: 0
+    rating: 0
+    FinnishPos: {x: 0, y: 0, z: 0}
+  - name: a8
+    title:
+    nitro: 0
+    j: 0
+    mapId: 10000004
+    mapBy:
+    userMap: 0
+    rating: 0
+    FinnishPos: {x: 0, y: 0, z: 0}
+  - name: a9
+    title:
+    nitro: 0
+    j: 0
+    mapId: 10000005
+    mapBy:
+    userMap: 0
+    rating: 0
+    FinnishPos: {x: 0, y: 0, z: 0}
+  - name: a10
+    title:
+    nitro: 0
+    j: 0
+    mapId: 10000006
+    mapBy:
+    userMap: 0
+    rating: 0
+    FinnishPos: {x: 0, y: 0, z: 0}
+  - name: a11
+    title:
+    nitro: 0
+    j: 0
+    mapId: 10000007
+    mapBy:
+    userMap: 0
+    rating: 0
+    FinnishPos: {x: 0, y: 0, z: 0}
+  - name: a12
+    title:
+    nitro: 0
+    j: 0
+    mapId: 10000008
+    mapBy:
+    userMap: 0
+    rating: 0
+    FinnishPos: {x: 0, y: 0, z: 0}
+  - name: a13
+    title:
+    nitro: 0
+    j: 0
+    mapId: 10000009
+    mapBy:
+    userMap: 0
+    rating: 0
+    FinnishPos: {x: 0, y: 0, z: 0}
+  - name: a14
+    title:
+    nitro: 0
+    j: 0
+    mapId: 10000010
+    mapBy:
+    userMap: 0
+    rating: 0
+    FinnishPos: {x: 0, y: 0, z: 0}
+  - name: a15
+    title:
+    nitro: 0
+    j: 0
+    mapId: 10000011
+    mapBy:
+    userMap: 0
+    rating: 0
+    FinnishPos: {x: 0, y: 0, z: 0}
+  - name: b1
+    title:
+    nitro: 0
+    j: 1
+    mapId: 10000012
+    mapBy:
+    userMap: 0
+    rating: 0
+    FinnishPos: {x: 0, y: 0, z: 0}
+  - name: b2
+    title:
+    nitro: 0
+    j: 1
+    mapId: 10000013
+    mapBy:
+    userMap: 0
+    rating: 0
+    FinnishPos: {x: 0, y: 0, z: 0}
+  - name: b03
+    title:
+    nitro: 0
+    j: 1
+    mapId: 10000014
+    mapBy:
+    userMap: 0
+    rating: 0
+    FinnishPos: {x: 0, y: 0, z: 0}
+  - name: b04
+    title:
+    nitro: 0
+    j: 1
+    mapId: 10000015
+    mapBy:
+    userMap: 0
+    rating: 0
+    FinnishPos: {x: 0, y: 0, z: 0}
+  - name: b5
+    title:
+    nitro: 0
+    j: 1
+    mapId: 10000016
+    mapBy:
+    userMap: 0
+    rating: 0
+    FinnishPos: {x: 0, y: 0, z: 0}
+  - name: b06
+    title:
+    nitro: 0
+    j: 1
+    mapId: 10000017
+    mapBy:
+    userMap: 0
+    rating: 0
+    FinnishPos: {x: 0, y: 0, z: 0}
+  - name: b7
+    title:
+    nitro: 0
+    j: 1
+    mapId: 10000018
+    mapBy:
+    userMap: 0
+    rating: 0
+    FinnishPos: {x: 0, y: 0, z: 0}
+  - name: b8
+    title:
+    nitro: 0
+    j: 1
+    mapId: 10000019
+    mapBy:
+    userMap: 0
+    rating: 0
+    FinnishPos: {x: 0, y: 0, z: 0}
+  - name: b9
+    title:
+    nitro: 0
+    j: 1
+    mapId: 10000020
+    mapBy:
+    userMap: 0
+    rating: 0
+    FinnishPos: {x: 0, y: 0, z: 0}
+  - name: b10
+    title:
+    nitro: 0
+    j: 1
+    mapId: 10000021
+    mapBy:
+    userMap: 0
+    rating: 0
+    FinnishPos: {x: 0, y: 0, z: 0}
+  - name: b11
+    title:
+    nitro: 0
+    j: 1
+    mapId: 10000022
+    mapBy:
+    userMap: 0
+    rating: 0
+    FinnishPos: {x: 0, y: 0, z: 0}
+  - name: b12
+    title:
+    nitro: 0
+    j: 1
+    mapId: 10000023
+    mapBy:
+    userMap: 0
+    rating: 0
+    FinnishPos: {x: 0, y: 0, z: 0}
+  - name: b13
+    title:
+    nitro: 0
+    j: 1
+    mapId: 10000024
+    mapBy:
+    userMap: 0
+    rating: 0
+    FinnishPos: {x: 0, y: 0, z: 0}
+  - name: b14
+    title:
+    nitro: 0
+    j: 1
+    mapId: 10000025
+    mapBy:
+    userMap: 0
+    rating: 0
+    FinnishPos: {x: 0, y: 0, z: 0}
+  - name: b15
+    title:
+    nitro: 0
+    j: 1
+    mapId: 10000026
+    mapBy:
+    userMap: 0
+    rating: 0
+    FinnishPos: {x: 0, y: 0, z: 0}
+  - name: c1
+    title:
+    nitro: 0
+    j: 2
+    mapId: 10000027
+    mapBy:
+    userMap: 0
+    rating: 0
+    FinnishPos: {x: 0, y: 0, z: 0}
+  - name: c2
+    title:
+    nitro: 0
+    j: 2
+    mapId: 10000028
+    mapBy:
+    userMap: 0
+    rating: 0
+    FinnishPos: {x: 0, y: 0, z: 0}
+  - name: c03
+    title:
+    nitro: 0
+    j: 2
+    mapId: 10000029
+    mapBy:
+    userMap: 0
+    rating: 0
+    FinnishPos: {x: 0, y: 0, z: 0}
+  - name: c04
+    title:
+    nitro: 0
+    j: 2
+    mapId: 10000030
+    mapBy:
+    userMap: 0
+    rating: 0
+    FinnishPos: {x: 0, y: 0, z: 0}
+  - name: c5
+    title:
+    nitro: 0
+    j: 2
+    mapId: 10000031
+    mapBy:
+    userMap: 0
+    rating: 0
+    FinnishPos: {x: 0, y: 0, z: 0}
+  - name: c06
+    title:
+    nitro: 0
+    j: 2
+    mapId: 10000032
+    mapBy:
+    userMap: 0
+    rating: 0
+    FinnishPos: {x: 0, y: 0, z: 0}
+  - name: c7
+    title:
+    nitro: 0
+    j: 2
+    mapId: 10000033
+    mapBy:
+    userMap: 0
+    rating: 0
+    FinnishPos: {x: 0, y: 0, z: 0}
+  - name: c8
+    title:
+    nitro: 0
+    j: 2
+    mapId: 10000034
+    mapBy:
+    userMap: 0
+    rating: 0
+    FinnishPos: {x: 0, y: 0, z: 0}
+  - name: c9
+    title:
+    nitro: 0
+    j: 2
+    mapId: 10000035
+    mapBy:
+    userMap: 0
+    rating: 0
+    FinnishPos: {x: 0, y: 0, z: 0}
+  - name: c10
+    title:
+    nitro: 0
+    j: 2
+    mapId: 10000036
+    mapBy:
+    userMap: 0
+    rating: 0
+    FinnishPos: {x: 0, y: 0, z: 0}
+  - name: c11
+    title:
+    nitro: 0
+    j: 2
+    mapId: 10000037
+    mapBy:
+    userMap: 0
+    rating: 0
+    FinnishPos: {x: 0, y: 0, z: 0}
+  - name: c12
+    title:
+    nitro: 0
+    j: 2
+    mapId: 10000038
+    mapBy:
+    userMap: 0
+    rating: 0
+    FinnishPos: {x: 0, y: 0, z: 0}
+  - name: c13
+    title:
+    nitro: 0
+    j: 2
+    mapId: 10000039
+    mapBy:
+    userMap: 0
+    rating: 0
+    FinnishPos: {x: 0, y: 0, z: 0}
+  - name: c14
+    title:
+    nitro: 0
+    j: 2
+    mapId: 10000040
+    mapBy:
+    userMap: 0
+    rating: 0
+    FinnishPos: {x: 0, y: 0, z: 0}
+  - name: c15
+    title:
+    nitro: 0
+    j: 2
+    mapId: 10000041
+    mapBy:
+    userMap: 0
+    rating: 0
+    FinnishPos: {x: 0, y: 0, z: 0}
+  - name: d1
+    title:
+    nitro: 3
+    j: 3
+    mapId: 10000042
+    mapBy:
+    userMap: 0
+    rating: 0
+    FinnishPos: {x: 0, y: 0, z: 0}
+  - name: d2
+    title:
+    nitro: 3
+    j: 3
+    mapId: 10000043
+    mapBy:
+    userMap: 0
+    rating: 0
+    FinnishPos: {x: 0, y: 0, z: 0}
+  - name: d03
+    title:
+    nitro: 3
+    j: 3
+    mapId: 10000044
+    mapBy:
+    userMap: 0
+    rating: 0
+    FinnishPos: {x: 0, y: 0, z: 0}
+  - name: d4
+    title:
+    nitro: 3
+    j: 3
+    mapId: 10000045
+    mapBy:
+    userMap: 0
+    rating: 0
+    FinnishPos: {x: 0, y: 0, z: 0}
+  - name: d06
+    title:
+    nitro: 3
+    j: 3
+    mapId: 10000046
+    mapBy:
+    userMap: 0
+    rating: 0
+    FinnishPos: {x: 0, y: 0, z: 0}
+  - name: d07
+    title:
+    nitro: 3
+    j: 3
+    mapId: 10000047
+    mapBy:
+    userMap: 0
+    rating: 0
+    FinnishPos: {x: 0, y: 0, z: 0}
+  - name: d8
+    title:
+    nitro: 3
+    j: 3
+    mapId: 10000048
+    mapBy:
+    userMap: 0
+    rating: 0
+    FinnishPos: {x: 0, y: 0, z: 0}
+  - name: d9
+    title:
+    nitro: 3
+    j: 3
+    mapId: 10000049
+    mapBy:
+    userMap: 0
+    rating: 0
+    FinnishPos: {x: 0, y: 0, z: 0}
+  - name: d10
+    title:
+    nitro: 3
+    j: 3
+    mapId: 10000050
+    mapBy:
+    userMap: 0
+    rating: 0
+    FinnishPos: {x: 0, y: 0, z: 0}
+  - name: d11
+    title:
+    nitro: 3
+    j: 3
+    mapId: 10000051
+    mapBy:
+    userMap: 0
+    rating: 0
+    FinnishPos: {x: 0, y: 0, z: 0}
+  - name: d12
+    title:
+    nitro: 3
+    j: 3
+    mapId: 10000052
+    mapBy:
+    userMap: 0
+    rating: 0
+    FinnishPos: {x: 0, y: 0, z: 0}
+  - name: d13
+    title:
+    nitro: 3
+    j: 3
+    mapId: 10000053
+    mapBy:
+    userMap: 0
+    rating: 0
+    FinnishPos: {x: 0, y: 0, z: 0}
+  - name: d14
+    title:
+    nitro: 3
+    j: 3
+    mapId: 10000054
+    mapBy:
+    userMap: 0
+    rating: 0
+    FinnishPos: {x: 0, y: 0, z: 0}
+  - name: d15
+    title:
+    nitro: 3
+    j: 3
+    mapId: 10000055
+    mapBy:
+    userMap: 0
+    rating: 0
+    FinnishPos: {x: 0, y: 0, z: 0}
+  - name: e01
+    title:
+    nitro: 3
+    j: 4
+    mapId: 10000056
+    mapBy:
+    userMap: 0
+    rating: 0
+    FinnishPos: {x: 0, y: 0, z: 0}
+  - name: e2
+    title:
+    nitro: 3
+    j: 4
+    mapId: 10000057
+    mapBy:
+    userMap: 0
+    rating: 0
+    FinnishPos: {x: 0, y: 0, z: 0}
+  - name: e3
+    title:
+    nitro: 3
+    j: 4
+    mapId: 10000058
+    mapBy:
+    userMap: 0
+    rating: 0
+    FinnishPos: {x: 0, y: 0, z: 0}
+  - name: e4
+    title:
+    nitro: 3
+    j: 4
+    mapId: 10000059
+    mapBy:
+    userMap: 0
+    rating: 0
+    FinnishPos: {x: 0, y: 0, z: 0}
+  - name: e05
+    title:
+    nitro: 3
+    j: 4
+    mapId: 10000060
+    mapBy:
+    userMap: 0
+    rating: 0
+    FinnishPos: {x: 0, y: 0, z: 0}
+  titles:
+  - Very Easy
+  - Easy
+  - Normal
+  - Hard
+  - Extreme
+  - user
+  sendReplayIcon: {fileID: 2800000, guid: 7611f6fdc1570fa44a563871cc32f442, type: 3}
+  winSound: {fileID: 8300000, guid: 30fe343ebd86dc64db91d235210f08e2, type: 3}
+  backTime: {fileID: 8300000, guid: a03097b7a8057f34e9fb24fb5ddf5cb4, type: 3}
+  horn: {fileID: 8300000, guid: f348d3adf7973794f87eae2bb22d2e03, type: 3}
+  levelMaterialsTxt:
+  - 874433be
+  - 043687b3
+  - 42605ec0
+  - d5b3c606
+  - e3f23ebe
+  - bf2276d0
+  - f2d26732
+  - 363f0985
+  - 638a9b9a
+  - 6acfef90
+  - 90e8fc1e
+  - 3e5317e5
+  - 175a9a55
+  - b3f72656
+  - c550fe6c
+  - 720dd5a2
+  - f89d6a8d
+  - 4d1baac4
+  - d352a200
+  - edb82c13
+  - 6b279a17
+  - 8b827e28
+  - ec30cf97
+  - 401666c0
+  - 9e9cebd8
+  - 94864be9
+  - a36ef7f2
+  - 61f5b86d
+  dirtMaterials:
+  - 3276b83f
+  - b3f72656
+  - 72e2fd43
+  - 42494742
+  - 874433be
+  - ec324e91
+  - 51b26551
+  - ground
+  - StadiumDirt2wAlph
+  - StadiumDirtRoad
+  - StadiumDirtRoadBorderD
+  animatedTextures:
+  - c0eae419
+  - 779062c4
+  - 353e0c24
+  - c7b5487d
+  - 5b51c1d0
+  - 89849e93
+  - e4042b2e
+  - 9e9cebd8
+  - f4c68401
+  - 
+  - 6f0277b9
+  specularTextures:
+  - 363f0985
+  mapSelectButton:
+    m_Name: button
+    m_Normal:
+      m_Background: {fileID: 2800000, guid: 606e179d219e6c9408413c985ad33207, type: 3}
+      m_TextColor: {r: 1, g: 1, b: 1, a: 1}
+    m_Hover:
+      m_Background: {fileID: 2800000, guid: f1aab5a1bbbb8f941827b4d35cb779de, type: 3}
+      m_TextColor: {r: 1, g: 1, b: 1, a: 1}
+    m_Active:
+      m_Background: {fileID: 2800000, guid: f1aab5a1bbbb8f941827b4d35cb779de, type: 3}
+      m_TextColor: {r: 1, g: 1, b: 1, a: 1}
+    m_Focused:
+      m_Background: {fileID: 0}
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_OnNormal:
+      m_Background: {fileID: 11005, guid: 0000000000000000e000000000000000, type: 0}
+      m_TextColor: {r: 1, g: 1, b: 1, a: 1}
+    m_OnHover:
+      m_Background: {fileID: 11004, guid: 0000000000000000e000000000000000, type: 0}
+      m_TextColor: {r: 1, g: 1, b: 1, a: 1}
+    m_OnActive:
+      m_Background: {fileID: 11002, guid: 0000000000000000e000000000000000, type: 0}
+      m_TextColor: {r: 1, g: 1, b: 1, a: 1}
+    m_OnFocused:
+      m_Background: {fileID: 0}
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_Border:
+      m_Left: 6
+      m_Right: 6
+      m_Top: 6
+      m_Bottom: 4
+    m_Margin:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Padding:
+      m_Left: 4
+      m_Right: 4
+      m_Top: 4
+      m_Bottom: 4
+    m_Overflow:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 7
+      m_Bottom: 22
+    m_Font: {fileID: 0}
+    m_FontSize: 14
+    m_FontStyle: 0
+    m_Alignment: 4
+    m_WordWrap: 0
+    m_RichText: 1
+    m_TextClipping: 1
+    m_ImagePosition: 0
+    m_ContentOffset: {x: 0, y: 0}
+    m_FixedWidth: 0
+    m_FixedHeight: 0
+    m_StretchWidth: 1
+    m_StretchHeight: 0
+  menuButton:
+    m_Name: button
+    m_Normal:
+      m_Background: {fileID: 2800000, guid: 3af7c494941289c479c973ddcd9917cc, type: 3}
+      m_TextColor: {r: 1, g: 1, b: 1, a: 1}
+    m_Hover:
+      m_Background: {fileID: 2800000, guid: 313e9cedf3f021a46afebe35e7f57680, type: 3}
+      m_TextColor: {r: 1, g: 1, b: 1, a: 1}
+    m_Active:
+      m_Background: {fileID: 2800000, guid: 313e9cedf3f021a46afebe35e7f57680, type: 3}
+      m_TextColor: {r: 1, g: 1, b: 1, a: 1}
+    m_Focused:
+      m_Background: {fileID: 0}
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_OnNormal:
+      m_Background: {fileID: 11005, guid: 0000000000000000e000000000000000, type: 0}
+      m_TextColor: {r: 1, g: 1, b: 1, a: 1}
+    m_OnHover:
+      m_Background: {fileID: 11004, guid: 0000000000000000e000000000000000, type: 0}
+      m_TextColor: {r: 1, g: 1, b: 1, a: 1}
+    m_OnActive:
+      m_Background: {fileID: 11002, guid: 0000000000000000e000000000000000, type: 0}
+      m_TextColor: {r: 1, g: 1, b: 1, a: 1}
+    m_OnFocused:
+      m_Background: {fileID: 0}
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_Border:
+      m_Left: 19
+      m_Right: 16
+      m_Top: 0
+      m_Bottom: 0
+    m_Margin:
+      m_Left: 0
+      m_Right: 46
+      m_Top: 0
+      m_Bottom: 0
+    m_Padding:
+      m_Left: 30
+      m_Right: 34
+      m_Top: 18
+      m_Bottom: 15
+    m_Overflow:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Font: {fileID: 0}
+    m_FontSize: 14
+    m_FontStyle: 0
+    m_Alignment: 4
+    m_WordWrap: 0
+    m_RichText: 1
+    m_TextClipping: 1
+    m_ImagePosition: 0
+    m_ContentOffset: {x: 0, y: 0}
+    m_FixedWidth: 0
+    m_FixedHeight: 0
+    m_StretchWidth: 1
+    m_StretchHeight: 0
+  labelGlow:
+    m_Name: label
+    m_Normal:
+      m_Background: {fileID: 2800000, guid: 501b2a8471d3bc744ba2977513cf1d80, type: 3}
+      m_TextColor: {r: 1, g: 1, b: 1, a: 1}
+    m_Hover:
+      m_Background: {fileID: 0}
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_Active:
+      m_Background: {fileID: 0}
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_Focused:
+      m_Background: {fileID: 0}
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_OnNormal:
+      m_Background: {fileID: 0}
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_OnHover:
+      m_Background: {fileID: 0}
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_OnActive:
+      m_Background: {fileID: 0}
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_OnFocused:
+      m_Background: {fileID: 0}
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_Border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Margin:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 4
+      m_Bottom: 4
+    m_Padding:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Overflow:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Font: {fileID: 0}
+    m_FontSize: 20
+    m_FontStyle: 0
+    m_Alignment: 1
+    m_WordWrap: 0
+    m_RichText: 1
+    m_TextClipping: 1
+    m_ImagePosition: 0
+    m_ContentOffset: {x: 0, y: 0}
+    m_FixedWidth: 0
+    m_FixedHeight: 0
+    m_StretchWidth: 1
+    m_StretchHeight: 0
+  avatars:
+  - {fileID: 2800000, guid: e379de5585619de4789c5ad54b2c5b07, type: 3}
+  - {fileID: 2800000, guid: 21078488130e390479c4f87adc995992, type: 3}
+  - {fileID: 2800000, guid: 3a2b4d6aeec474b4fbd678efb1d7ed1c, type: 3}
+  - {fileID: 2800000, guid: d70df5069e988344c86aa88f1956e8d9, type: 3}
+  - {fileID: 2800000, guid: f4f63e49d1619764d92095687337be0c, type: 3}
+  - {fileID: 2800000, guid: 8133fa8b028b85e47bcaa8bd808722d4, type: 3}
+  - {fileID: 2800000, guid: 877449f3800a3954a939e8defe478a7c, type: 3}
+  - {fileID: 2800000, guid: c2be0d082421d4b49b630a6dbef9a7e8, type: 3}
+  - {fileID: 2800000, guid: 6155cc73b6674914199472e62a555d3b, type: 3}
+  - {fileID: 2800000, guid: 0827dbfe6e6780444aec7d6e2584d8d4, type: 3}
+  - {fileID: 2800000, guid: de39b7be075a54e47bfb5fe4bb2ce73a, type: 3}
+  - {fileID: 2800000, guid: a1196773af29689419270b2dc8044746, type: 3}
+  - {fileID: 2800000, guid: 2b45588b1e68daf4187538ce2d5da230, type: 3}
+  - {fileID: 2800000, guid: b139c1bfbc5b5654fb02d0d9470f59d4, type: 3}
+  - {fileID: 2800000, guid: b47a76c84b8abef4dbbc97d3ca747947, type: 3}
+  - {fileID: 2800000, guid: da896cefe29c5d94ba94d749b896153d, type: 3}
+  - {fileID: 2800000, guid: feda4e748edd4224b8c8bea6e8eff56e, type: 3}
+  - {fileID: 2800000, guid: ed66982812a3ae448b8b44199c969176, type: 3}
+  loaderPrefab: {fileID: 114741214345725095, guid: 7d0c648b659eca44dbd6d98746b07b47, type: 2}
+  faceBook: {fileID: 2800000, guid: 2a06694f81761794aa7ae7919a4c8795, type: 3}
+  arrow:
+    m_Name:
+    m_Normal:
+      m_Background: {fileID: 2800000, guid: a134863fdb8c85847ad7452978935abc, type: 3}
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_Hover:
+      m_Background: {fileID: 2800000, guid: a134863fdb8c85847ad7452978935abc, type: 3}
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_Active:
+      m_Background: {fileID: 2800000, guid: 2bcce80b4a3c6b0428b3cd07c7c89798, type: 3}
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_Focused:
+      m_Background: {fileID: 0}
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_OnNormal:
+      m_Background: {fileID: 0}
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_OnHover:
+      m_Background: {fileID: 0}
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_OnActive:
+      m_Background: {fileID: 0}
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_OnFocused:
+      m_Background: {fileID: 0}
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_Border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Margin:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Padding:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Overflow:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Font: {fileID: 0}
+    m_FontSize: 0
+    m_FontStyle: 0
+    m_Alignment: 4
+    m_WordWrap: 0
+    m_RichText: 1
+    m_TextClipping: 0
+    m_ImagePosition: 0
+    m_ContentOffset: {x: 0, y: 0}
+    m_FixedWidth: 0
+    m_FixedHeight: 177.45
+    m_StretchWidth: 0
+    m_StretchHeight: 0
+  attention: {fileID: 2800000, guid: 04a4b4fb5eeb3724d8d282da17a59882, type: 3}
+  android: {fileID: 2800000, guid: e8fadd3fb5b25c9408a7710ae1718b04, type: 3}
+  track: {fileID: 13400000, guid: 5eb71fa962a8ce64e8bac025f27ba29a, type: 2}
+  border: {fileID: 13400000, guid: 6b1d4c2cf9e9d904bb5ac080c8baafea, type: 2}
+  minRotation2: 0.1
+  rotationAdd2: 50
+  projectFly: 0
+  gravitation: 24
+  gameSettings: {fileID: 114460473937304167, guid: cd2ce65e76f527a429a4d98ecced84f6, type: 2}
+  stabilize: 0.1
+  stabilizeSpeed: 7
+  noise: {fileID: 2800000, guid: 2f60d63f1226e0a46a010a65a8487a8b, type: 3}
+  roadMaterial: {fileID: 2100000, guid: 766606a33d2c20346a047d7c5ee00027, type: 2}
+  startPrefab: {fileID: 4107415862889003, guid: 057006cac146a8b4892a0e164d60934f, type: 2}
+  CheckPoint: {fileID: 4002060538397619, guid: af3d9f1d418134549affaa454faf1c1a, type: 2}
+  dot: {fileID: 4893513460521222, guid: 03d38a6c292efa945b92fb44cdd5479f, type: 2}
+  levelTextures:
+  - {fileID: 2100000, guid: 766606a33d2c20346a047d7c5ee00027, type: 2}
+  - {fileID: 2100000, guid: 4934fcb155a01044fa215a1878fe2dc1, type: 2}
+  - {fileID: 2100000, guid: 59ec0c37776d9f547bf672dfc51ca2a2, type: 2}
+  - {fileID: 2100000, guid: 2150e8e0182cb244d840a8729e39ea67, type: 2}
+  nitro: {fileID: 8300000, guid: c47711f316c60cc48a119b7a7bdf0883, type: 3}
+  lineMaterialYellow: {fileID: 2100000, guid: 23bbb68840b68f44897f297bc720c5b1, type: 2}
+  renderSettingsId: 3
+  waterSplash: {fileID: 8300000, guid: e37426a0a6232944e8d60d3cf26fbaee, type: 3}
+  waterSound: {fileID: 8300000, guid: 9e821de242a56e54989335a487315674, type: 3}
+  waterSound2: {fileID: 8300000, guid: aa0750dbd33e7b94785e6acabc2292de, type: 3}
+  carCrash: {fileID: 8300000, guid: b634b36ec8e41f24da012a9d01fb5725, type: 3}
+  explosion: {fileID: 1367756806071235, guid: d126fabb77b4c334f80581a2d4f2021f, type: 2}
+  rating:
+  - {fileID: 2800000, guid: 6fec56c7b9069ab48a79cfcf15a34fc3, type: 3}
+  - {fileID: 2800000, guid: b5b2273954b4c3d46b95df8e1925bb4b, type: 3}
+  - {fileID: 2800000, guid: 334c0a92b1d55054d8352da1dfbaa29b, type: 3}
+  - {fileID: 2800000, guid: 7b378733b41174b4195a2e48deffd44b, type: 3}
+  - {fileID: 2800000, guid: c8854e5daa90eef4cbe96ec6e4e42c73, type: 3}
+  - {fileID: 2800000, guid: 8a03dfb0c0f3ab740ad974e30ffa5d1f, type: 3}
+  - {fileID: 2800000, guid: beae0636daad99b409cf0b697c38b179, type: 3}
+  - {fileID: 2800000, guid: e3428412d223f304499f1eeddc10e6dc, type: 3}
+  - {fileID: 2800000, guid: c22b5bec0ea49ff468d1f5bb17900ce3, type: 3}
+  - {fileID: 2800000, guid: d426d047a7172404590ec0d38ad207a2, type: 3}
+  - {fileID: 2800000, guid: be3d529fa08c6224d9b539d43c3e97d5, type: 3}
+  rainShader: {fileID: 4800000, guid: 45b8c0fae08b1c044b01ce65b965c55e, type: 3}
+  rainShader2: {fileID: 4800000, guid: 954dcac6fa2b89940b8aeeb5f67669ec, type: 3}
+  gearChange:
+  - {fileID: 8300000, guid: 6c74a55275d91e341830ff28b1f1f8e4, type: 3}
+  - {fileID: 8300000, guid: 429d22c13ad22ed4199b36913dedc4a4, type: 3}
+  - {fileID: 8300000, guid: 698ecfae20237ef4ab7571983503a51f, type: 3}
+  terrainBounds:
+    m_Center: {x: 106.0443, y: 28.918217, z: -53.6438}
+    m_Extent: {x: 1000, y: 1000.3023, z: 1000}
+  chat: {fileID: 8300000, guid: 929a28755bf8f224b8abe019c1fb1c03, type: 3}
+  waterMaterial: {fileID: 2100000, guid: d1729e0c3050d544d8e4e79d6a27bc91, type: 2}
+  waterMaterialDef: {fileID: 4800000, guid: ef4380b0ab39b1f48abd9c4549e5e58b, type: 3}
+  shoot:
+  - {fileID: 8300000, guid: d9323dd156eff794b9ea5edfea8e62d7, type: 3}
+  - {fileID: 8300000, guid: 321e3249538e3ae4fbab97e0abba8a70, type: 3}
+  - {fileID: 8300000, guid: 24476069a68ab104dbc035f59a271f73, type: 3}
+  - {fileID: 8300000, guid: 2c4b1ef4f2aecce419e794edbe7cea85, type: 3}
+  bullet: {fileID: 114688843734290206, guid: 6e8075963c6712e42b49c95124d9bd22, type: 2}
+  hole: {fileID: 1662532762312377, guid: 34f6864255573874987b6e565b61b13d, type: 2}
+  hole2: {fileID: 1501332078298541, guid: 1df943a5ec6dd8747b046e4e30f93843, type: 2}
+  bulletHitSound:
+  - {fileID: 8300000, guid: fdaf12eee734ef24c865ec6360bfe9fe, type: 3}
+  - {fileID: 8300000, guid: 9b999e8ba1c7bdd43a0fee9ed25da35d, type: 3}
+  - {fileID: 8300000, guid: 38dc63c54a29d1d44a1ef3c9549187f3, type: 3}
+  turretExp: {fileID: 1303918047072911, guid: cea69c280f093d644b773a121c4b29b5, type: 2}
+  lifeHitSound: {fileID: 8300000, guid: 785a3dd64bf4f834fa0f0c9a3615f555, type: 3}
+  hitFeedback: {fileID: 8300000, guid: 722bb01c25f2477409b1457b00dbec6c, type: 3}
+  youHaveFlag: {fileID: 8300000, guid: b149039a932807d469b661335857b425, type: 3}
+  yourTeamHaveFlag: {fileID: 8300000, guid: e50ec4b23f79e0a428b4d982708701b6, type: 3}
+  enemyHaveYourFlag: {fileID: 8300000, guid: 5394bc35559336b40990e959624dd267, type: 3}
+  redFlagReturn: {fileID: 8300000, guid: 092fd60f7fa15ce44a933be7562085c4, type: 3}
+  blueFlagReturn: {fileID: 8300000, guid: 3f7f667eea66bc444986c03760810f4e, type: 3}
+  youLoose: {fileID: 8300000, guid: a4129e4305a2c424c92d1776f36a1d56, type: 3}
+  youWin: {fileID: 8300000, guid: e49cb0a5ea96fcf4f9ff8e98034b5d7f, type: 3}
+  youWin2: {fileID: 8300000, guid: c1ca8b0d0d937a14387302f22969a7bd, type: 3}
+  endGame: {fileID: 8300000, guid: df95c9be663a7b44782c2af4ad686464, type: 3}
+  jump: {fileID: 8300000, guid: c93d0b8352ca31946b124632f7dac0da, type: 3}
+  coin: {fileID: 1368172929478066, guid: bc58b95cf6f69b04b95c7a1b177cc728, type: 2}
+  coinSound: {fileID: 8300000, guid: 7af0d726f833f684a8e3c3b17a57f636, type: 3}
+  damageText: {fileID: 114201319613977365, guid: 927224b888620fd4ba56f782a61f343f, type: 2}
+  fire: {fileID: 1306760832292322, guid: 8fd961f13a8f02348b315da3434c0eef, type: 2}
+  defCursor: {fileID: 2800000, guid: 88f0fcd08d978534cb745cb9da3614b1, type: 3}
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1008824604942189}
+  m_IsPrefabParent: 1
+  m_IsExploded: 0

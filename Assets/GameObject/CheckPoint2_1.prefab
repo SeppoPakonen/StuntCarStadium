@@ -1,0 +1,126 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1364793511688758
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4743672547169404}
+  - 33: {fileID: 33841280269087521}
+  - 65: {fileID: 65669742759515375}
+  m_Layer: 10
+  m_Name: CheckPoint2
+  m_TagString: CheckPoint
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1630747829412398
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4810547450918336}
+  - 33: {fileID: 33891262114606393}
+  - 23: {fileID: 23556315088641757}
+  m_Layer: 0
+  m_Name: checkPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4743672547169404
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1364793511688758}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 65.21924, y: -5.715576, z: 32.718628}
+  m_LocalScale: {x: 2, y: 2, z: 2}
+  m_Children:
+  - {fileID: 4810547450918336}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!33 &33841280269087521
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1364793511688758}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!65 &65669742759515375
+BoxCollider:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1364793511688758}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  m_Size: {x: 14.014345, y: 6.5545197, z: 10.21148}
+  m_Center: {x: 0.06238556, y: 1.9689388, z: 0.22875595}
+--- !u!4 &4810547450918336
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1630747829412398}
+  m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 0.04011444, y: 3.081563, z: -0.3069864}
+  m_LocalScale: {x: 4.999518, y: 4.999518, z: 4.999518}
+  m_Children: []
+  m_Father: {fileID: 4743672547169404}
+  m_RootOrder: 0
+--- !u!33 &33891262114606393
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1630747829412398}
+  m_Mesh: {fileID: 4300000, guid: 29d42eb1906d3e647a0a306cb9cd13cf, type: 2}
+--- !u!23 &23556315088641757
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1630747829412398}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 2100000, guid: f05ba941220901e4f8e9cb1ec67a143a, type: 2}
+  - {fileID: 2100000, guid: e64b3857e7fbe9b4fb4b06b75091be47, type: 2}
+  - {fileID: 2100000, guid: 611ceec43ead78f40a050a5a57620660, type: 2}
+  - {fileID: 2100000, guid: a98bcfef176f66244a53e594494fd5c6, type: 2}
+  - {fileID: 2100000, guid: 16340df32ba0dde46b5089aca7e75b7d, type: 2}
+  - {fileID: 2100000, guid: 68ba666f8833fcc458d506856a29cda9, type: 2}
+  - {fileID: 2100000, guid: 5acee7f8442e2854095594a76c4676f9, type: 2}
+  - {fileID: 2100000, guid: e194635299542d846840d8ff36f303e2, type: 2}
+  m_SubsetIndices:
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1364793511688758}
+  m_IsPrefabParent: 1
+  m_IsExploded: 0

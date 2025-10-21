@@ -1,0 +1,92 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Tasharen Water
+  m_Shader: {fileID: 4800000, guid: 5404024b205b5df4bb2642da774a639a, type: 3}
+  m_ShaderKeywords: []
+  m_CustomRenderQueue: -1
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+    - first:
+        name: _Cube
+      second:
+        m_Texture: {fileID: 8900000, guid: 0b4c3d6aae356004fb5e616a82b9709a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _WaterTex
+      second:
+        m_Texture: {fileID: 2800000, guid: 00cd9f8f53cf5ee4c81c18db3ec777c6, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _ReflectionTex
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - first:
+        name: _Shininess
+      second: 1
+    - first:
+        name: _FresnelScale
+      second: 1
+    - first:
+        name: _FresnelPower
+      second: 1
+    - first:
+        name: _Tiling
+      second: 0.057393804
+    - first:
+        name: _ReflectionTint
+      second: 1
+    - first:
+        name: _WaveScale
+      second: 0.07281132
+    - first:
+        name: _ReflDistort
+      second: 1.5
+    - first:
+        name: _RefrDistort
+      second: 0
+    - first:
+        name: _Distortion
+      second: 0.2
+    - first:
+        name: _FresnelBias
+      second: 0
+    - first:
+        name: _Focus
+      second: -100
+    m_Colors:
+    - first:
+        name: _Color
+      second: {r: 0, g: 0.83448267, b: 1, a: 1}
+    - first:
+        name: _Color0
+      second: {r: 1, g: 1, b: 1, a: 0}
+    - first:
+        name: _Color1
+      second: {r: 0.4090614, g: 0.66288924, b: 0.71323526, a: 0}
+    - first:
+        name: _Specular
+      second: {r: 0.625, g: 0.625, b: 0.625, a: 0}
+    - first:
+        name: _InvRanges
+      second: {r: 0.1, g: 0.1, b: 4, a: -1.33}
+    - first:
+        name: _InvFadeParemeter
+      second: {r: 0.23, g: 0.13, b: 0.9, a: 1}
+    - first:
+        name: _WaveSpeed
+      second: {r: 9, g: 5, b: -8, a: -4}
+    - first:
+        name: _Ranges
+      second: {r: 1, g: 5, b: 0, a: 0}

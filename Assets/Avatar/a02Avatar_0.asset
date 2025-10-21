@@ -1,0 +1,6624 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!90 &9000000
+Avatar:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: a02Avatar
+  m_AvatarSize: 22292
+  m_Avatar:
+    serializedVersion: 3
+    m_AvatarSkeleton:
+      data:
+        m_Node:
+        - m_ParentId: -1
+          m_AxesId: -1
+        - m_ParentId: 0
+          m_AxesId: -1
+        - m_ParentId: 0
+          m_AxesId: -1
+        - m_ParentId: 0
+          m_AxesId: -1
+        - m_ParentId: 0
+          m_AxesId: -1
+        - m_ParentId: 0
+          m_AxesId: -1
+        - m_ParentId: 0
+          m_AxesId: -1
+        - m_ParentId: 0
+          m_AxesId: -1
+        - m_ParentId: 0
+          m_AxesId: -1
+        - m_ParentId: 0
+          m_AxesId: -1
+        - m_ParentId: 0
+          m_AxesId: -1
+        - m_ParentId: 0
+          m_AxesId: -1
+        - m_ParentId: 0
+          m_AxesId: -1
+        - m_ParentId: 0
+          m_AxesId: -1
+        - m_ParentId: 0
+          m_AxesId: -1
+        - m_ParentId: 0
+          m_AxesId: -1
+        - m_ParentId: 0
+          m_AxesId: -1
+        - m_ParentId: 0
+          m_AxesId: -1
+        - m_ParentId: 0
+          m_AxesId: -1
+        - m_ParentId: 0
+          m_AxesId: -1
+        - m_ParentId: 0
+          m_AxesId: -1
+        - m_ParentId: 0
+          m_AxesId: -1
+        - m_ParentId: 0
+          m_AxesId: -1
+        - m_ParentId: 0
+          m_AxesId: -1
+        - m_ParentId: 0
+          m_AxesId: -1
+        - m_ParentId: 0
+          m_AxesId: -1
+        - m_ParentId: 0
+          m_AxesId: -1
+        - m_ParentId: 0
+          m_AxesId: -1
+        - m_ParentId: 0
+          m_AxesId: -1
+        - m_ParentId: 0
+          m_AxesId: -1
+        - m_ParentId: 0
+          m_AxesId: -1
+        - m_ParentId: 0
+          m_AxesId: -1
+        - m_ParentId: 0
+          m_AxesId: -1
+        - m_ParentId: 0
+          m_AxesId: -1
+        - m_ParentId: 0
+          m_AxesId: -1
+        - m_ParentId: 0
+          m_AxesId: -1
+        - m_ParentId: 0
+          m_AxesId: -1
+        - m_ParentId: 0
+          m_AxesId: -1
+        - m_ParentId: 0
+          m_AxesId: -1
+        - m_ParentId: 0
+          m_AxesId: -1
+        - m_ParentId: 0
+          m_AxesId: -1
+        - m_ParentId: 0
+          m_AxesId: -1
+        - m_ParentId: 0
+          m_AxesId: -1
+        - m_ParentId: 0
+          m_AxesId: -1
+        - m_ParentId: 0
+          m_AxesId: -1
+        - m_ParentId: 0
+          m_AxesId: -1
+        - m_ParentId: 0
+          m_AxesId: -1
+        - m_ParentId: 0
+          m_AxesId: -1
+        - m_ParentId: 0
+          m_AxesId: -1
+        - m_ParentId: 0
+          m_AxesId: -1
+        - m_ParentId: 0
+          m_AxesId: -1
+        - m_ParentId: 0
+          m_AxesId: -1
+        - m_ParentId: 0
+          m_AxesId: -1
+        - m_ParentId: 0
+          m_AxesId: -1
+        - m_ParentId: 0
+          m_AxesId: -1
+        - m_ParentId: 0
+          m_AxesId: -1
+        - m_ParentId: 0
+          m_AxesId: -1
+        - m_ParentId: 0
+          m_AxesId: -1
+        - m_ParentId: 0
+          m_AxesId: -1
+        - m_ParentId: 0
+          m_AxesId: -1
+        - m_ParentId: 0
+          m_AxesId: -1
+        - m_ParentId: 0
+          m_AxesId: -1
+        - m_ParentId: 0
+          m_AxesId: -1
+        - m_ParentId: 0
+          m_AxesId: -1
+        - m_ParentId: 0
+          m_AxesId: -1
+        - m_ParentId: 0
+          m_AxesId: -1
+        - m_ParentId: 0
+          m_AxesId: -1
+        - m_ParentId: 0
+          m_AxesId: -1
+        - m_ParentId: 0
+          m_AxesId: -1
+        - m_ParentId: 0
+          m_AxesId: -1
+        - m_ParentId: 0
+          m_AxesId: -1
+        - m_ParentId: 0
+          m_AxesId: -1
+        - m_ParentId: 0
+          m_AxesId: -1
+        - m_ParentId: 0
+          m_AxesId: -1
+        - m_ParentId: 0
+          m_AxesId: -1
+        - m_ParentId: 0
+          m_AxesId: -1
+        - m_ParentId: 0
+          m_AxesId: -1
+        - m_ParentId: 0
+          m_AxesId: -1
+        - m_ParentId: 0
+          m_AxesId: -1
+        - m_ParentId: 0
+          m_AxesId: -1
+        - m_ParentId: 0
+          m_AxesId: -1
+        - m_ParentId: 0
+          m_AxesId: -1
+        - m_ParentId: 0
+          m_AxesId: -1
+        - m_ParentId: 0
+          m_AxesId: -1
+        - m_ParentId: 0
+          m_AxesId: -1
+        - m_ParentId: 0
+          m_AxesId: -1
+        - m_ParentId: 0
+          m_AxesId: -1
+        - m_ParentId: 0
+          m_AxesId: -1
+        - m_ParentId: 0
+          m_AxesId: -1
+        - m_ParentId: 0
+          m_AxesId: -1
+        - m_ParentId: 0
+          m_AxesId: -1
+        - m_ParentId: 0
+          m_AxesId: -1
+        - m_ParentId: 0
+          m_AxesId: -1
+        - m_ParentId: 0
+          m_AxesId: -1
+        - m_ParentId: 0
+          m_AxesId: -1
+        - m_ParentId: 0
+          m_AxesId: -1
+        - m_ParentId: 0
+          m_AxesId: -1
+        - m_ParentId: 0
+          m_AxesId: -1
+        - m_ParentId: 0
+          m_AxesId: -1
+        - m_ParentId: 0
+          m_AxesId: -1
+        - m_ParentId: 0
+          m_AxesId: -1
+        - m_ParentId: 0
+          m_AxesId: -1
+        - m_ParentId: 0
+          m_AxesId: -1
+        - m_ParentId: 0
+          m_AxesId: -1
+        - m_ParentId: 0
+          m_AxesId: -1
+        - m_ParentId: 0
+          m_AxesId: -1
+        - m_ParentId: 0
+          m_AxesId: -1
+        - m_ParentId: 0
+          m_AxesId: -1
+        - m_ParentId: 0
+          m_AxesId: -1
+        - m_ParentId: 0
+          m_AxesId: -1
+        - m_ParentId: 0
+          m_AxesId: -1
+        - m_ParentId: 0
+          m_AxesId: -1
+        - m_ParentId: 0
+          m_AxesId: -1
+        - m_ParentId: 0
+          m_AxesId: -1
+        - m_ParentId: 0
+          m_AxesId: -1
+        - m_ParentId: 0
+          m_AxesId: -1
+        - m_ParentId: 0
+          m_AxesId: -1
+        - m_ParentId: 0
+          m_AxesId: -1
+        - m_ParentId: 0
+          m_AxesId: -1
+        - m_ParentId: 0
+          m_AxesId: -1
+        - m_ParentId: 0
+          m_AxesId: -1
+        - m_ParentId: 0
+          m_AxesId: -1
+        - m_ParentId: 0
+          m_AxesId: -1
+        - m_ParentId: 0
+          m_AxesId: -1
+        - m_ParentId: 0
+          m_AxesId: -1
+        - m_ParentId: 0
+          m_AxesId: -1
+        - m_ParentId: 0
+          m_AxesId: -1
+        - m_ParentId: 0
+          m_AxesId: -1
+        - m_ParentId: 0
+          m_AxesId: -1
+        - m_ParentId: 0
+          m_AxesId: -1
+        - m_ParentId: 0
+          m_AxesId: -1
+        - m_ParentId: 0
+          m_AxesId: -1
+        - m_ParentId: 0
+          m_AxesId: -1
+        - m_ParentId: 0
+          m_AxesId: -1
+        - m_ParentId: 0
+          m_AxesId: -1
+        - m_ParentId: 0
+          m_AxesId: -1
+        - m_ParentId: 0
+          m_AxesId: -1
+        - m_ParentId: 0
+          m_AxesId: -1
+        - m_ParentId: 0
+          m_AxesId: -1
+        - m_ParentId: 0
+          m_AxesId: -1
+        - m_ParentId: 0
+          m_AxesId: -1
+        - m_ParentId: 0
+          m_AxesId: -1
+        - m_ParentId: 0
+          m_AxesId: -1
+        - m_ParentId: 0
+          m_AxesId: -1
+        - m_ParentId: 0
+          m_AxesId: -1
+        - m_ParentId: 0
+          m_AxesId: -1
+        - m_ParentId: 0
+          m_AxesId: -1
+        - m_ParentId: 0
+          m_AxesId: -1
+        - m_ParentId: 0
+          m_AxesId: -1
+        - m_ParentId: 0
+          m_AxesId: -1
+        - m_ParentId: 0
+          m_AxesId: -1
+        - m_ParentId: 0
+          m_AxesId: -1
+        - m_ParentId: 0
+          m_AxesId: -1
+        - m_ParentId: 0
+          m_AxesId: -1
+        - m_ParentId: 0
+          m_AxesId: -1
+        - m_ParentId: 0
+          m_AxesId: -1
+        - m_ParentId: 0
+          m_AxesId: -1
+        - m_ParentId: 0
+          m_AxesId: -1
+        - m_ParentId: 0
+          m_AxesId: -1
+        - m_ParentId: 0
+          m_AxesId: -1
+        - m_ParentId: 0
+          m_AxesId: -1
+        - m_ParentId: 0
+          m_AxesId: -1
+        - m_ParentId: 0
+          m_AxesId: -1
+        - m_ParentId: 0
+          m_AxesId: -1
+        - m_ParentId: 0
+          m_AxesId: -1
+        - m_ParentId: 0
+          m_AxesId: -1
+        - m_ParentId: 0
+          m_AxesId: -1
+        - m_ParentId: 0
+          m_AxesId: -1
+        - m_ParentId: 0
+          m_AxesId: -1
+        - m_ParentId: 0
+          m_AxesId: -1
+        - m_ParentId: 0
+          m_AxesId: -1
+        - m_ParentId: 0
+          m_AxesId: -1
+        - m_ParentId: 0
+          m_AxesId: -1
+        - m_ParentId: 0
+          m_AxesId: -1
+        - m_ParentId: 0
+          m_AxesId: -1
+        - m_ParentId: 0
+          m_AxesId: -1
+        - m_ParentId: 0
+          m_AxesId: -1
+        - m_ParentId: 0
+          m_AxesId: -1
+        - m_ParentId: 0
+          m_AxesId: -1
+        - m_ParentId: 0
+          m_AxesId: -1
+        - m_ParentId: 0
+          m_AxesId: -1
+        - m_ParentId: 0
+          m_AxesId: -1
+        - m_ParentId: 0
+          m_AxesId: -1
+        - m_ParentId: 0
+          m_AxesId: -1
+        - m_ParentId: 0
+          m_AxesId: -1
+        - m_ParentId: 0
+          m_AxesId: -1
+        - m_ParentId: 0
+          m_AxesId: -1
+        - m_ParentId: 0
+          m_AxesId: -1
+        - m_ParentId: 0
+          m_AxesId: -1
+        - m_ParentId: 0
+          m_AxesId: -1
+        - m_ParentId: 0
+          m_AxesId: -1
+        - m_ParentId: 0
+          m_AxesId: -1
+        - m_ParentId: 0
+          m_AxesId: -1
+        - m_ParentId: 0
+          m_AxesId: -1
+        - m_ParentId: 0
+          m_AxesId: -1
+        - m_ParentId: 0
+          m_AxesId: -1
+        - m_ParentId: 0
+          m_AxesId: -1
+        m_ID: 00000000ea8570047cb57773c6e47e.a50d479)df3411d0365711a74df2013.d491014)ad80dab0a4e3dac7dabb46b1d3d846c6a87d565/311e562(4b270061a2440016d9e1108/408210f(3993cb0130f0cb76468e74636fed74141448648-8d2b64f*f71232b31e7132c465d4225-fcb7222*85a6f9d38cc5f9a4f29d65d2fbfe65a5805b753,1938754+630123028a622375f8a4339+18d6e8156e6cac5*8d4421e*6427219-1046eba2f957305+f034302,8d92ade614f1ad916f54bd0(f637bd7/8c0eeb36656deb411ec8fbd(87abfba/f6fa6bb*6f996bc-15a03d84fcc33df387662d6*1e052d1-6714f6e46e77f69318451f4071261f370a830fa.93e00fd)e9d9599000ba59e77b1f497.e27c490)9b6d92f0920e9287ec560ef1e5350e869e901e1/07f31e6(7dca482194a94856ef0c58c/766f58b(0f7e8341061d833670633c2359003c5422a52cc-bbc62cb*c1ff7af3289c7a8453396a1-ca5a6a6*b34bb193ba28b1e4c4702d92cd132de5b6b63d7,2fd53d0+55ec6b42bc8f6b35c72a7ba,5e497bd+2758a0222e3ba0555881e41*b1e2e46-ca47f4f45324f483291da2c*c07ea2b-bbdbb22422b8b2535ba969a*52ca69d-2c92f5a+25f1f5d,5e54e545c737e532bd0eb37+546db30,2fc8a395b6aba3e2cfba781+c6d9786,bb7fe5a6221ce5d159b9f54(c0daf53/bae3a3765380a3012825b39(b146b3e/c8576816c1346861bf6cf417b60ff460cdaae4f)54c9e48.2ef0b2c7c793b2b0bc36a22)2555a25.5c4479a7552779d02359c6c50a3ac6b277dfe476fc7af4e/6519f49(1c082f61156b2f16631590034a76907431d380e-a8b0809*d289d6d33bead6a445dd0fc2dcccd43+d5afd44,a32e81567a4d812101e891b(988b91c/e2b2c7860bd1c7f17074d76(e917d71/90060ce699650c91e73d90e7ee5e909095fb800)0c98807.76a1d6379fc2d640e467c6d)7d04c6a.04151d570d761d207b08a235526ba24229ceb2d+b0adb2a,ca94e4e523f7e4925852f40+c131f47,b8202f85b1432ff2cf1bb384c678b3f3bddda36*24bea31-5e87f554b7e4f523cc41e5b*5522e5c-2c333e3425503e435
+        m_AxesArray: []
+    m_AvatarSkeletonPose:
+      data:
+        m_X:
+        - t:
+            x: 0
+            y: 0
+            z: 0
+            w: 0
+          q:
+            x: 0
+            y: 0
+            z: 0
+            w: 1
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -82.65048
+            y: 110.24344
+            z: -978.9144
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 148.03561
+            y: 96.541504
+            z: -393.96106
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -10.4844055
+            y: 92.744965
+            z: -673.3037
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -30.603851
+            y: 106.00491
+            z: -863.22314
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 20.099213
+            y: 86.49756
+            z: -496.14468
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 100.72452
+            y: 91.048096
+            z: -407.26956
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 4.035736
+            y: 95.16156
+            z: -641.0016
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -124.6597
+            y: 106.348816
+            z: -978.93835
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 164.9166
+            y: 87.16052
+            z: -464.00586
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -105.71219
+            y: 104.74042
+            z: -608.8264
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -105.68375
+            y: 110.85419
+            z: -866.297
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -25.338135
+            y: 103.09888
+            z: -354.54776
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -105.60336
+            y: 103.080536
+            z: -1040.3556
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 49.464874
+            y: 97.21927
+            z: -866.30725
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 129.76663
+            y: 102.70325
+            z: -354.24588
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 113.76413
+            y: 95.91696
+            z: -592.7296
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 49.51535
+            y: 97.78122
+            z: -1040.4093
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 49.90869
+            y: 89.84485
+            z: -1040.7627
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -25.718842
+            y: 87.48834
+            z: -354.09894
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 114.22269
+            y: 87.78052
+            z: -592.7102
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 78.76126
+            y: 89.06213
+            z: -866.2883
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -106.07016
+            y: 95.98831
+            z: -608.81287
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 130.1655
+            y: 93.17706
+            z: -353.88693
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -105.95261
+            y: 90.586914
+            z: -1040.7048
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -106.47525
+            y: 101.358826
+            z: -866.2001
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 32.798553
+            y: 88.40997
+            z: -607.32355
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -60.919037
+            y: 88.6991
+            z: -636.50165
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 99.362335
+            y: 91.945984
+            z: -375.6451
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -154.32578
+            y: 98.262085
+            z: -885.3982
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 77.470245
+            y: 89.306885
+            z: -898.4739
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 164.85019
+            y: 86.38666
+            z: -330.12823
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -123.401886
+            y: 88.874146
+            z: -561.14307
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 134.53574
+            y: 87.75598
+            z: -553.28815
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -29.985687
+            y: 87.47308
+            z: -317.3623
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 66.57678
+            y: 90.00174
+            z: -1073.492
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -11.923004
+            y: 90.36835
+            z: -1084.4465
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 261.43817
+            y: 86.35431
+            z: -351.3874
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -156.96109
+            y: 87.966675
+            z: -351.2683
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 148.8794
+            y: 87.65662
+            z: -608.8639
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 181.12355
+            y: 88.648865
+            z: -866.3174
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -124.72153
+            y: 88.710846
+            z: -544.38477
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 81.73874
+            y: 89.16559
+            z: -898.47375
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 52.44867
+            y: 89.82715
+            z: -1043.3042
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -124.70236
+            y: 89.01013
+            z: -624.83777
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -28.167023
+            y: 88.40076
+            z: -547.2478
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -28.258728
+            y: 87.47058
+            z: -351.29202
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 132.69995
+            y: 86.427155
+            z: -351.35077
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 52.33029
+            y: 88.34961
+            z: -673.17346
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -108.48703
+            y: 90.6225
+            z: -1043.25
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -234.43088
+            y: 90.25043
+            z: -866.1991
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 132.76337
+            y: 87.66742
+            z: -592.7433
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 81.69745
+            y: 88.65964
+            z: -769.7355
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 22.791199
+            y: 91.74042
+            z: -497.14792
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -92.0676
+            y: 117.08472
+            z: -863.1317
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 52.30545
+            y: 93.829285
+            z: -592.714
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -44.222992
+            y: 111.493225
+            z: -898.501
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -60.366974
+            y: 102.375305
+            z: -608.80505
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -28.014465
+            y: 93.65997
+            z: -463.30475
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 164.90106
+            y: 92.73892
+            z: -415.73013
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -25.712006
+            y: 91.03241
+            z: -353.8312
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 130.16678
+            y: 96.55234
+            z: -353.90323
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -105.85373
+            y: 99.17383
+            z: -608.7383
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 49.890167
+            y: 93.461334
+            z: -1040.7769
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 77.48108
+            y: 92.75229
+            z: -866.31836
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 114.35925
+            y: 91.30261
+            z: -596.0963
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -156.92203
+            y: 100.76355
+            z: -866.1919
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -106.02219
+            y: 93.9249
+            z: -1040.7086
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 4.011444
+            y: 95.20422
+            z: -592.8452
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 164.89822
+            y: 91.612366
+            z: -461.38342
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -44.345795
+            y: 95.532776
+            z: -532.26654
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 32.32834
+            y: 95.642334
+            z: -629.1522
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 38.926666
+            y: 91.294525
+            z: -602.6814
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 164.90585
+            y: 92.00229
+            z: -455.67532
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -27.756134
+            y: 92.82507
+            z: -557.47577
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 78.7977
+            y: 98.92169
+            z: -769.761
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -116.91818
+            y: 111.21271
+            z: -978.9518
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -103.86362
+            y: 96.99597
+            z: -608.9933
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -107.36447
+            y: 94.58856
+            z: -1072.8469
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -107.40512
+            y: 104.24576
+            z: -866.53174
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 130.49002
+            y: 93.683716
+            z: -336.44803
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 67.55911
+            y: 96.07501
+            z: -1074.5303
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 78.81271
+            y: 95.35309
+            z: -898.504
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -28.184235
+            y: 91.394165
+            z: -319.20367
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 115.46854
+            y: 93.1586
+            z: -594.42163
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -106.30148
+            y: 96.45462
+            z: -608.7345
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 50.140533
+            y: 90.027954
+            z: -1040.9999
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -231.03958
+            y: 90.441315
+            z: -866.1881
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 130.3613
+            y: 94.30301
+            z: -353.68048
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 114.35867
+            y: 90.30603
+            z: -599.8036
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -106.14792
+            y: 90.772736
+            z: -1040.9153
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 78.33316
+            y: 89.24426
+            z: -866.2998
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -25.950653
+            y: 87.67142
+            z: -353.6361
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 165.02701
+            y: 90.79785
+            z: -445.05115
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 4.011444
+            y: 94.64447
+            z: -592.84314
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -102.18851
+            y: 110.00177
+            z: -978.93787
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 114.35889
+            y: 92.83032
+            z: -607.3076
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 78.31656
+            y: 94.244934
+            z: -866.3279
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -105.77554
+            y: 93.69916
+            z: -1040.4717
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -25.522797
+            y: 90.58502
+            z: -354.03235
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -107.338715
+            y: 101.77835
+            z: -866.1831
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -105.85416
+            y: 99.48593
+            z: -608.77795
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 49.661133
+            y: 92.94165
+            z: -1040.5867
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 129.93808
+            y: 96.874146
+            z: -354.13245
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -55.60083
+            y: 110.26129
+            z: -866.20874
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 4.026947
+            y: 97.25433
+            z: -663.99634
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 20.088593
+            y: 88.32779
+            z: -496.12915
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 132.69626
+            y: 91.57495
+            z: -429.37292
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -105.00778
+            y: 97.25006
+            z: -608.73083
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -104.877594
+            y: 91.46127
+            z: -1039.6212
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 129.08344
+            y: 95.9827
+            z: -354.9867
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 114.38617
+            y: 90.95935
+            z: -608.8572
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -124.53024
+            y: 101.30194
+            z: -866.1847
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 48.83673
+            y: 90.74689
+            z: -1039.6888
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 78.80246
+            y: 89.97049
+            z: -866.31067
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -24.62387
+            y: 88.39026
+            z: -354.91452
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 34.233704
+            y: 93.33032
+            z: -596.03674
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -26.652557
+            y: 110.62927
+            z: -956.9386
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 68.00839
+            y: 96.606445
+            z: -395.11005
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -46.498444
+            y: 93.329346
+            z: -559.37604
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 20.088593
+            y: 88.41708
+            z: -496.13467
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -54.44803
+            y: 109.573364
+            z: -866.3301
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 4.0242004
+            y: 97.362
+            z: -663.4446
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 132.82208
+            y: 90.788574
+            z: -428.21906
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 53.46875
+            y: 90.635895
+            z: -416.93304
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 4.0297546
+            y: 88.92792
+            z: -592.6838
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -29.332123
+            y: 109.764984
+            z: -945.5503
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -120.65756
+            y: 112.17798
+            z: -978.95447
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -64.39365
+            y: 94.9805
+            z: -623.3473
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 164.91122
+            y: 87.80469
+            z: -459.9842
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 34.22357
+            y: 92.633575
+            z: -595.993
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -92.19162
+            y: 112.72977
+            z: -863.1333
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 36.1752
+            y: 94.164246
+            z: -629.1244
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -42.595978
+            y: 94.0697
+            z: -526.67444
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 164.91043
+            y: 88.68872
+            z: -468.03482
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 101.395294
+            y: 96.64386
+            z: -368.38538
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 41.086304
+            y: 92.32709
+            z: -405.50586
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -26.617981
+            y: 110.76788
+            z: -956.98987
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -100.91965
+            y: 106.4043
+            z: -978.9464
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 164.90851
+            y: 87.21594
+            z: -440.26584
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 164.90707
+            y: 91.391815
+            z: -461.24832
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -117.11777
+            y: 106.666504
+            z: -978.9419
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 164.91473
+            y: 87.49982
+            z: -462.08685
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -115.05209
+            y: 111.056305
+            z: -978.94824
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 164.91025
+            y: 91.88013
+            z: -456.1453
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 33.828888
+            y: 93.45532
+            z: -602.8258
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -25.150208
+            y: 94.08392
+            z: -557.38916
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 78.73773
+            y: 99.32861
+            z: -769.75916
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -44.345795
+            y: 95.532776
+            z: -532.26654
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 32.32834
+            y: 95.642334
+            z: -629.1522
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -64.37912
+            y: 92.72925
+            z: -628.6328
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -33.067444
+            y: 107.166504
+            z: -925.3601
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 101.38806
+            y: 98.36279
+            z: -366.39343
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -4.122589
+            y: 91.19302
+            z: -478.83145
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 236.57283
+            y: 89.9801
+            z: -399.7306
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 236.58203
+            y: 90.104126
+            z: -431.91513
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 236.59119
+            y: 90.22815
+            z: -464.0997
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 236.5453
+            y: 89.60797
+            z: -303.17694
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 236.55449
+            y: 89.731995
+            z: -335.36148
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 236.56366
+            y: 89.85605
+            z: -367.54602
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 100.52884
+            y: 89.85504
+            z: -231.38959
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 68.34427
+            y: 89.979065
+            z: -231.38045
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 36.15976
+            y: 90.10309
+            z: -231.3713
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 164.88193
+            y: 96.25867
+            z: -451.51004
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 68.31912
+            y: 91.276794
+            z: -567.8632
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 36.134552
+            y: 91.40082
+            z: -567.85406
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 100.50369
+            y: 91.15277
+            z: -567.8724
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 75.732574
+            y: 91.71649
+            z: -689.3458
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 197.05734
+            y: 90.7807
+            z: -567.89984
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 75.77844
+            y: 92.33661
+            z: -850.26855
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 75.79678
+            y: 92.584656
+            z: -914.6377
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 36.28128
+            y: 93.385254
+            z: -1082.807
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -67.743774
+            y: 90.90369
+            z: -335.15375
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -67.73465
+            y: 91.02771
+            z: -367.3383
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -67.71631
+            y: 91.27579
+            z: -431.7074
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -67.76218
+            y: 90.65564
+            z: -270.78458
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -28.099274
+            y: 91.83948
+            z: -617.5676
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -92.468414
+            y: 92.087524
+            z: -617.5493
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -124.65292
+            y: 92.21155
+            z: -617.54016
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -189.02206
+            y: 92.459595
+            z: -617.52185
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -67.68878
+            y: 91.64783
+            z: -528.2611
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -228.57492
+            y: 92.7641
+            z: -656.9535
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -228.56577
+            y: 92.88809
+            z: -689.13806
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -228.55655
+            y: 93.012146
+            z: -721.32263
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 3.9946594
+            y: 98.503265
+            z: -593.3041
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -228.5474
+            y: 93.13617
+            z: -753.5072
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -228.52902
+            y: 93.38422
+            z: -817.8763
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -228.51987
+            y: 93.50824
+            z: -850.0608
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -228.51071
+            y: 93.63226
+            z: -882.2455
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -228.50156
+            y: 93.75632
+            z: -914.43005
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -228.48318
+            y: 94.00433
+            z: -978.7991
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -121.13388
+            y: 115.48151
+            z: -978.9713
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -228.47403
+            y: 94.12836
+            z: -1010.98364
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -124.64151
+            y: 94.00537
+            z: -1082.7612
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -156.82608
+            y: 94.129395
+            z: -1082.7521
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -189.01059
+            y: 94.25345
+            z: -1082.7429
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -60.27234
+            y: 93.75729
+            z: -1082.7795
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+    m_DefaultPose:
+      data:
+        m_X:
+        - t:
+            x: 0
+            y: 0
+            z: 0
+            w: 0
+          q:
+            x: 0
+            y: 0
+            z: 0
+            w: 1
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -82.65048
+            y: 110.24344
+            z: -978.9144
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 148.03561
+            y: 96.541504
+            z: -393.96106
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -10.4844055
+            y: 92.744965
+            z: -673.3037
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -30.603851
+            y: 106.00491
+            z: -863.22314
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 20.099213
+            y: 86.49756
+            z: -496.14468
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 100.72452
+            y: 91.048096
+            z: -407.26956
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 4.035736
+            y: 95.16156
+            z: -641.0016
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -124.6597
+            y: 106.348816
+            z: -978.93835
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 164.9166
+            y: 87.16052
+            z: -464.00586
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -105.71219
+            y: 104.74042
+            z: -608.8264
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -105.68375
+            y: 110.85419
+            z: -866.297
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -25.338135
+            y: 103.09888
+            z: -354.54776
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -105.60336
+            y: 103.080536
+            z: -1040.3556
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 49.464874
+            y: 97.21927
+            z: -866.30725
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 129.76663
+            y: 102.70325
+            z: -354.24588
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 113.76413
+            y: 95.91696
+            z: -592.7296
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 49.51535
+            y: 97.78122
+            z: -1040.4093
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 49.90869
+            y: 89.84485
+            z: -1040.7627
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -25.718842
+            y: 87.48834
+            z: -354.09894
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 114.22269
+            y: 87.78052
+            z: -592.7102
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 78.76126
+            y: 89.06213
+            z: -866.2883
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -106.07016
+            y: 95.98831
+            z: -608.81287
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 130.1655
+            y: 93.17706
+            z: -353.88693
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -105.95261
+            y: 90.586914
+            z: -1040.7048
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -106.47525
+            y: 101.358826
+            z: -866.2001
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 32.798553
+            y: 88.40997
+            z: -607.32355
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -60.919037
+            y: 88.6991
+            z: -636.50165
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 99.362335
+            y: 91.945984
+            z: -375.6451
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -154.32578
+            y: 98.262085
+            z: -885.3982
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 77.470245
+            y: 89.306885
+            z: -898.4739
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 164.85019
+            y: 86.38666
+            z: -330.12823
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -123.401886
+            y: 88.874146
+            z: -561.14307
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 134.53574
+            y: 87.75598
+            z: -553.28815
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -29.985687
+            y: 87.47308
+            z: -317.3623
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 66.57678
+            y: 90.00174
+            z: -1073.492
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -11.923004
+            y: 90.36835
+            z: -1084.4465
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 261.43817
+            y: 86.35431
+            z: -351.3874
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -156.96109
+            y: 87.966675
+            z: -351.2683
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 148.8794
+            y: 87.65662
+            z: -608.8639
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 181.12355
+            y: 88.648865
+            z: -866.3174
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -124.72153
+            y: 88.710846
+            z: -544.38477
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 81.73874
+            y: 89.16559
+            z: -898.47375
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 52.44867
+            y: 89.82715
+            z: -1043.3042
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -124.70236
+            y: 89.01013
+            z: -624.83777
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -28.167023
+            y: 88.40076
+            z: -547.2478
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -28.258728
+            y: 87.47058
+            z: -351.29202
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 132.69995
+            y: 86.427155
+            z: -351.35077
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 52.33029
+            y: 88.34961
+            z: -673.17346
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -108.48703
+            y: 90.6225
+            z: -1043.25
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -234.43088
+            y: 90.25043
+            z: -866.1991
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 132.76337
+            y: 87.66742
+            z: -592.7433
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 81.69745
+            y: 88.65964
+            z: -769.7355
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 22.791199
+            y: 91.74042
+            z: -497.14792
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -92.0676
+            y: 117.08472
+            z: -863.1317
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 52.30545
+            y: 93.829285
+            z: -592.714
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -44.222992
+            y: 111.493225
+            z: -898.501
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -60.366974
+            y: 102.375305
+            z: -608.80505
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -28.014465
+            y: 93.65997
+            z: -463.30475
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 164.90106
+            y: 92.73892
+            z: -415.73013
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -25.712006
+            y: 91.03241
+            z: -353.8312
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 130.16678
+            y: 96.55234
+            z: -353.90323
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -105.85373
+            y: 99.17383
+            z: -608.7383
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 49.890167
+            y: 93.461334
+            z: -1040.7769
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 77.48108
+            y: 92.75229
+            z: -866.31836
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 114.35925
+            y: 91.30261
+            z: -596.0963
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -156.92203
+            y: 100.76355
+            z: -866.1919
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -106.02219
+            y: 93.9249
+            z: -1040.7086
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 4.011444
+            y: 95.20422
+            z: -592.8452
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 164.89822
+            y: 91.612366
+            z: -461.38342
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -44.345795
+            y: 95.532776
+            z: -532.26654
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 32.32834
+            y: 95.642334
+            z: -629.1522
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 38.926666
+            y: 91.294525
+            z: -602.6814
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 164.90585
+            y: 92.00229
+            z: -455.67532
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -27.756134
+            y: 92.82507
+            z: -557.47577
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 78.7977
+            y: 98.92169
+            z: -769.761
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -116.91818
+            y: 111.21271
+            z: -978.9518
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -103.86362
+            y: 96.99597
+            z: -608.9933
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -107.36447
+            y: 94.58856
+            z: -1072.8469
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -107.40512
+            y: 104.24576
+            z: -866.53174
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 130.49002
+            y: 93.683716
+            z: -336.44803
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 67.55911
+            y: 96.07501
+            z: -1074.5303
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 78.81271
+            y: 95.35309
+            z: -898.504
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -28.184235
+            y: 91.394165
+            z: -319.20367
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 115.46854
+            y: 93.1586
+            z: -594.42163
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -106.30148
+            y: 96.45462
+            z: -608.7345
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 50.140533
+            y: 90.027954
+            z: -1040.9999
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -231.03958
+            y: 90.441315
+            z: -866.1881
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 130.3613
+            y: 94.30301
+            z: -353.68048
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 114.35867
+            y: 90.30603
+            z: -599.8036
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -106.14792
+            y: 90.772736
+            z: -1040.9153
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 78.33316
+            y: 89.24426
+            z: -866.2998
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -25.950653
+            y: 87.67142
+            z: -353.6361
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 165.02701
+            y: 90.79785
+            z: -445.05115
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 4.011444
+            y: 94.64447
+            z: -592.84314
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -102.18851
+            y: 110.00177
+            z: -978.93787
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 114.35889
+            y: 92.83032
+            z: -607.3076
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 78.31656
+            y: 94.244934
+            z: -866.3279
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -105.77554
+            y: 93.69916
+            z: -1040.4717
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -25.522797
+            y: 90.58502
+            z: -354.03235
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -107.338715
+            y: 101.77835
+            z: -866.1831
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -105.85416
+            y: 99.48593
+            z: -608.77795
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 49.661133
+            y: 92.94165
+            z: -1040.5867
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 129.93808
+            y: 96.874146
+            z: -354.13245
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -55.60083
+            y: 110.26129
+            z: -866.20874
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 4.026947
+            y: 97.25433
+            z: -663.99634
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 20.088593
+            y: 88.32779
+            z: -496.12915
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 132.69626
+            y: 91.57495
+            z: -429.37292
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -105.00778
+            y: 97.25006
+            z: -608.73083
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -104.877594
+            y: 91.46127
+            z: -1039.6212
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 129.08344
+            y: 95.9827
+            z: -354.9867
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 114.38617
+            y: 90.95935
+            z: -608.8572
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -124.53024
+            y: 101.30194
+            z: -866.1847
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 48.83673
+            y: 90.74689
+            z: -1039.6888
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 78.80246
+            y: 89.97049
+            z: -866.31067
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -24.62387
+            y: 88.39026
+            z: -354.91452
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 34.233704
+            y: 93.33032
+            z: -596.03674
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -26.652557
+            y: 110.62927
+            z: -956.9386
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 68.00839
+            y: 96.606445
+            z: -395.11005
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -46.498444
+            y: 93.329346
+            z: -559.37604
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 20.088593
+            y: 88.41708
+            z: -496.13467
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -54.44803
+            y: 109.573364
+            z: -866.3301
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 4.0242004
+            y: 97.362
+            z: -663.4446
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 132.82208
+            y: 90.788574
+            z: -428.21906
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 53.46875
+            y: 90.635895
+            z: -416.93304
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 4.0297546
+            y: 88.92792
+            z: -592.6838
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -29.332123
+            y: 109.764984
+            z: -945.5503
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -120.65756
+            y: 112.17798
+            z: -978.95447
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -64.39365
+            y: 94.9805
+            z: -623.3473
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 164.91122
+            y: 87.80469
+            z: -459.9842
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 34.22357
+            y: 92.633575
+            z: -595.993
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -92.19162
+            y: 112.72977
+            z: -863.1333
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 36.1752
+            y: 94.164246
+            z: -629.1244
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -42.595978
+            y: 94.0697
+            z: -526.67444
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 164.91043
+            y: 88.68872
+            z: -468.03482
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 101.395294
+            y: 96.64386
+            z: -368.38538
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 41.086304
+            y: 92.32709
+            z: -405.50586
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -26.617981
+            y: 110.76788
+            z: -956.98987
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -100.91965
+            y: 106.4043
+            z: -978.9464
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 164.90851
+            y: 87.21594
+            z: -440.26584
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 164.90707
+            y: 91.391815
+            z: -461.24832
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -117.11777
+            y: 106.666504
+            z: -978.9419
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 164.91473
+            y: 87.49982
+            z: -462.08685
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -115.05209
+            y: 111.056305
+            z: -978.94824
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 164.91025
+            y: 91.88013
+            z: -456.1453
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 33.828888
+            y: 93.45532
+            z: -602.8258
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -25.150208
+            y: 94.08392
+            z: -557.38916
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 78.73773
+            y: 99.32861
+            z: -769.75916
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -44.345795
+            y: 95.532776
+            z: -532.26654
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 32.32834
+            y: 95.642334
+            z: -629.1522
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -64.37912
+            y: 92.72925
+            z: -628.6328
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -33.067444
+            y: 107.166504
+            z: -925.3601
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 101.38806
+            y: 98.36279
+            z: -366.39343
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -4.122589
+            y: 91.19302
+            z: -478.83145
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 236.57283
+            y: 89.9801
+            z: -399.7306
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 236.58203
+            y: 90.104126
+            z: -431.91513
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 236.59119
+            y: 90.22815
+            z: -464.0997
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 236.5453
+            y: 89.60797
+            z: -303.17694
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 236.55449
+            y: 89.731995
+            z: -335.36148
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 236.56366
+            y: 89.85605
+            z: -367.54602
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 100.52884
+            y: 89.85504
+            z: -231.38959
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 68.34427
+            y: 89.979065
+            z: -231.38045
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 36.15976
+            y: 90.10309
+            z: -231.3713
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 164.88193
+            y: 96.25867
+            z: -451.51004
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 68.31912
+            y: 91.276794
+            z: -567.8632
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 36.134552
+            y: 91.40082
+            z: -567.85406
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 100.50369
+            y: 91.15277
+            z: -567.8724
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 75.732574
+            y: 91.71649
+            z: -689.3458
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 197.05734
+            y: 90.7807
+            z: -567.89984
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 75.77844
+            y: 92.33661
+            z: -850.26855
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 75.79678
+            y: 92.584656
+            z: -914.6377
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 36.28128
+            y: 93.385254
+            z: -1082.807
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -67.743774
+            y: 90.90369
+            z: -335.15375
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -67.73465
+            y: 91.02771
+            z: -367.3383
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -67.71631
+            y: 91.27579
+            z: -431.7074
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -67.76218
+            y: 90.65564
+            z: -270.78458
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -28.099274
+            y: 91.83948
+            z: -617.5676
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -92.468414
+            y: 92.087524
+            z: -617.5493
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -124.65292
+            y: 92.21155
+            z: -617.54016
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -189.02206
+            y: 92.459595
+            z: -617.52185
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -67.68878
+            y: 91.64783
+            z: -528.2611
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -228.57492
+            y: 92.7641
+            z: -656.9535
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -228.56577
+            y: 92.88809
+            z: -689.13806
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -228.55655
+            y: 93.012146
+            z: -721.32263
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: 3.9946594
+            y: 98.503265
+            z: -593.3041
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -228.5474
+            y: 93.13617
+            z: -753.5072
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -228.52902
+            y: 93.38422
+            z: -817.8763
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -228.51987
+            y: 93.50824
+            z: -850.0608
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -228.51071
+            y: 93.63226
+            z: -882.2455
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -228.50156
+            y: 93.75632
+            z: -914.43005
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -228.48318
+            y: 94.00433
+            z: -978.7991
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -121.13388
+            y: 115.48151
+            z: -978.9713
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -228.47403
+            y: 94.12836
+            z: -1010.98364
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -124.64151
+            y: 94.00537
+            z: -1082.7612
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -156.82608
+            y: 94.129395
+            z: -1082.7521
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -189.01059
+            y: 94.25345
+            z: -1082.7429
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        - t:
+            x: -60.27234
+            y: 93.75729
+            z: -1082.7795
+            w: 0
+          q:
+            x: -0.7071068
+            y: 0
+            z: -0
+            w: 0.7071068
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+    m_SkeletonNameIDArray: 00000000ea8570047cb57773c6e47e.a50d479)df3411d0365711a74df2013.d491014)ad80dab0a4e3dac7dabb46b1d3d846c6a87d565/311e562(4b270061a2440016d9e1108/408210f(3993cb0130f0cb76468e74636fed74141448648-8d2b64f*f71232b31e7132c465d4225-fcb7222*85a6f9d38cc5f9a4f29d65d2fbfe65a5805b753,1938754+630123028a622375f8a4339+18d6e8156e6cac5*8d4421e*6427219-1046eba2f957305+f034302,8d92ade614f1ad916f54bd0(f637bd7/8c0eeb36656deb411ec8fbd(87abfba/f6fa6bb*6f996bc-15a03d84fcc33df387662d6*1e052d1-6714f6e46e77f69318451f4071261f370a830fa.93e00fd)e9d9599000ba59e77b1f497.e27c490)9b6d92f0920e9287ec560ef1e5350e869e901e1/07f31e6(7dca482194a94856ef0c58c/766f58b(0f7e8341061d833670633c2359003c5422a52cc-bbc62cb*c1ff7af3289c7a8453396a1-ca5a6a6*b34bb193ba28b1e4c4702d92cd132de5b6b63d7,2fd53d0+55ec6b42bc8f6b35c72a7ba,5e497bd+2758a0222e3ba0555881e41*b1e2e46-ca47f4f45324f483291da2c*c07ea2b-bbdbb22422b8b2535ba969a*52ca69d-2c92f5a+25f1f5d,5e54e545c737e532bd0eb37+546db30,2fc8a395b6aba3e2cfba781+c6d9786,bb7fe5a6221ce5d159b9f54(c0daf53/bae3a3765380a3012825b39(b146b3e/c8576816c1346861bf6cf417b60ff460cdaae4f)54c9e48.2ef0b2c7c793b2b0bc36a22)2555a25.5c4479a7552779d02359c6c50a3ac6b277dfe476fc7af4e/6519f49(1c082f61156b2f16631590034a76907431d380e-a8b0809*d289d6d33bead6a445dd0fc2dcccd43+d5afd44,a32e81567a4d812101e891b(988b91c/e2b2c7860bd1c7f17074d76(e917d71/90060ce699650c91e73d90e7ee5e909095fb800)0c98807.76a1d6379fc2d640e467c6d)7d04c6a.04151d570d761d207b08a235526ba24229ceb2d+b0adb2a,ca94e4e523f7e4925852f40+c131f47,b8202f85b1432ff2cf1bb384c678b3f3bddda36*24bea31-5e87f554b7e4f523cc41e5b*5522e5c-2c333e3425503e435
+    m_Human:
+      data:
+        m_RootX:
+          t:
+            x: 0
+            y: 0
+            z: 0
+            w: 0
+          q:
+            x: 0
+            y: 0
+            z: 0
+            w: 1
+          s:
+            x: 1
+            y: 1
+            z: 1
+            w: 1
+        m_Skeleton:
+          data:
+            m_Node: []
+            m_ID:
+            m_AxesArray: []
+        m_SkeletonPose:
+          data:
+            m_X: []
+        m_LeftHand:
+          data:
+            m_HandBoneIndex: ffffff/fffffff/fffffff/fffffff/fffffff/fffffff/fffffff/fffffff/fffffff/fffffff/fffffff/fffffff/fffffff/fffffff/fffffff/f
+        m_RightHand:
+          data:
+            m_HandBoneIndex: ffffff/fffffff/fffffff/fffffff/fffffff/fffffff/fffffff/fffffff/fffffff/fffffff/fffffff/fffffff/fffffff/fffffff/fffffff/f
+        m_Handles: []
+        m_ColliderArray: []
+        m_HumanBoneIndex: ffffff/fffffff/fffffff/fffffff/fffffff/fffffff/fffffff/fffffff/fffffff/fffffff/fffffff/fffffff/fffffff/fffffff/fffffff/fffffff/fffffff/fffffff/fffffff/fffffff/fffffff/fffffff/fffffff/fffffff/f
+        m_HumanBoneMass:
+        - 0.14545456
+        - 0.12121213
+        - 0.12121213
+        - 0.048484854
+        - 0.048484854
+        - 0.009696971
+        - 0.009696971
+        - 0.030303033
+        - 0.2909091
+        - 0.012121214
+        - 0.048484854
+        - 0.006060607
+        - 0.006060607
+        - 0.024242427
+        - 0.024242427
+        - 0.01818182
+        - 0.01818182
+        - 0.006060607
+        - 0.006060607
+        - 0.0024242427
+        - 0.0024242427
+        - 0
+        - 0
+        - 0
+        m_ColliderIndex: ffffff/fffffff/fffffff/fffffff/fffffff/fffffff/fffffff/fffffff/fffffff/fffffff/fffffff/fffffff/fffffff/fffffff/fffffff/fffffff/fffffff/fffffff/fffffff/fffffff/fffffff/fffffff/fffffff/fffffff/f
+        m_Scale: 1
+        m_ArmTwist: 0.5
+        m_ForeArmTwist: 0.5
+        m_UpperLegTwist: 0.5
+        m_LegTwist: 0.5
+        m_ArmStretch: 0.05
+        m_LegStretch: 0.05
+        m_FeetSpacing: 0
+        m_HasLeftHand: 0
+        m_HasRightHand: 0
+    m_HumanSkeletonIndexArray:
+    m_HumanSkeletonReverseIndexArray:
+    m_RootMotionBoneIndex: -1
+    m_RootMotionBoneX:
+      t:
+        x: 0
+        y: 0
+        z: 0
+        w: 0
+      q:
+        x: 0
+        y: 0
+        z: 0
+        w: 1
+      s:
+        x: 1
+        y: 1
+        z: 1
+        w: 1
+    m_RootMotionSkeleton:
+      data:
+        m_Node: []
+        m_ID:
+        m_AxesArray: []
+    m_RootMotionSkeletonPose:
+      data:
+        m_X: []
+    m_RootMotionSkeletonIndexArray:
+  m_TOS:
+    0:
+    10065309: DrawCall_0244
+    43874130: DrawCall_0319
+    52249075: DrawCall_0044
+    74483178: DrawCall_0040
+    131228119: DrawCall_0419
+    133452164: DrawCall_0240
+    151644645: DrawCall_0411
+    154130870: DrawCall_0248
+    178982360: DrawCall_0048
+    187382649: DrawCall_0315
+    205979488: DrawCall_0311
+    241446396: DrawCall_0415
+    269670564: DrawCall_0401
+    271902967: DrawCall_0258
+    297066070: DrawCall_0105
+    301368000: DrawCall_0358
+    305138232: DrawCall_0305
+    330316953: DrawCall_0058
+    358469153: DrawCall_0301
+    383326799: DrawCall_0101
+    394206397: DrawCall_0405
+    427992284: DrawCall_0254
+    436629682: DrawCall_0054
+    461784595: DrawCall_0309
+    493597867: DrawCall_0050
+    516509846: DrawCall_0409
+    519004357: DrawCall_0250
+    570591861: DrawCall_0278
+    572832294: DrawCall_0421
+    625573439: DrawCall_0425
+    661367971: DrawCall_0321
+    674239024: DrawCall_0074
+    726892147: DrawCall_0293
+    733267550: DrawCall_0274
+    742308458: DrawCall_0297
+    752419399: DrawCall_0270
+    754922004: DrawCall_0429
+    771543133: DrawCall_0397
+    794678825: DrawCall_0070
+    800747012: DrawCall_0097
+    824910705: DrawCall_0064
+    828997607: DrawCall_0239
+    843599666: DrawCall_0283
+    850392863: DrawCall_0264
+    862821672: DrawCall_0364
+    872438065: DrawCall_0360
+    891652907: DrawCall_0287
+    901919494: DrawCall_0260
+    904135509: DrawCall_0439
+    910616424: DrawCall_0060
+    949841754: DrawCall_0068
+    954151884: DrawCall_0235
+    991542068: DrawCall_0268
+    994020199: DrawCall_0431
+    1012027262: DrawCall_0435
+    1094834174: DrawCall_0061
+    1109572541: DrawCall_0286
+    1120207760: DrawCall_0261
+    1122186179: DrawCall_0438
+    1124559271: DrawCall_0361
+    1147841982: DrawCall_0365
+    1162837924: DrawCall_0282
+    1168689033: DrawCall_0265
+    1177293799: DrawCall_0065
+    1181634417: DrawCall_0238
+    1263894504: DrawCall_0434
+    1277070242: DrawCall_0269
+    1278786545: DrawCall_0430
+    1335517132: DrawCall_0069
+    1339556698: DrawCall_0234
+    1349295157: DrawCall_0320
+    1380863657: DrawCall_0424
+    1426438883: DrawCall_0279
+    1428392624: DrawCall_0420
+    1451323021: DrawCall_0079
+    1482352319: DrawCall_0071
+    1530497788: DrawCall_0296
+    1541288657: DrawCall_0271
+    1542980226: DrawCall_0428
+    1549029093: DrawCall_0292
+    1555297992: DrawCall_0275
+    1597448870: DrawCall_0075
+    1618488363: DrawCall_0404
+    1641949913: DrawCall_0100
+    1650130615: DrawCall_0300
+    1689717775: DrawCall_0059
+    1698118318: DrawCall_0304
+    1723068096: DrawCall_0104
+    1727115862: DrawCall_0359
+    1729488946: DrawCall_0400
+    1731450977: DrawCall_0259
+    1775132672: DrawCall_0408
+    1776832595: DrawCall_0251
+    1785496637: DrawCall_0051
+    1820423813: DrawCall_0308
+    1828798500: DrawCall_0055
+    1854248010: DrawCall_0255
+    1866989181: DrawCall_0355
+    1893028161: DrawCall_0418
+    1894998290: DrawCall_0241
+    1937225084: DrawCall_0041
+    1947890021: DrawCall_0045
+    1973045188: DrawCall_0318
+    2006885643: DrawCall_0245
+    2036538730: DrawCall_0414
+    2067910646: DrawCall_0310
+    2083261423: DrawCall_0314
+    2108439886: DrawCall_0049
+    2114902387: DrawCall_0410
+    2116610336: DrawCall_0249
+    2156655974: DrawCall_0257
+    2169085777: DrawCall_0357
+    2198806792: DrawCall_0057
+    2221073681: DrawCall_0053
+    2280010111: DrawCall_0253
+    2294124524: DrawCall_0106
+    2300283166: DrawCall_0402
+    2335792002: DrawCall_0306
+    2354356123: DrawCall_0302
+    2390117639: DrawCall_0406
+    2412792821: DrawCall_0102
+    2415966303: DrawCall_0412
+    2451729091: DrawCall_0316
+    2505027290: DrawCall_0312
+    2540534854: DrawCall_0416
+    2576401447: DrawCall_0247
+    2585006153: DrawCall_0047
+    2642007120: DrawCall_0043
+    2667380798: DrawCall_0243
+    2715181686: DrawCall_0236
+    2721503965: DrawCall_0432
+    2774212292: DrawCall_0436
+    2778371770: DrawCall_0288
+    2787001044: DrawCall_0088
+    2797315695: DrawCall_0232
+    2820829899: DrawCall_0067
+    2831534822: DrawCall_0080
+    2873171592: DrawCall_0280
+    2879825573: DrawCall_0267
+    2888620689: DrawCall_0284
+    2899010236: DrawCall_0263
+    2903050379: DrawCall_0363
+    2941236946: DrawCall_0063
+    2973320074: DrawCall_0077
+    2992254921: DrawCall_0290
+    2998769636: DrawCall_0277
+    3040340944: DrawCall_0294
+    3050329085: DrawCall_0273
+    3058993043: DrawCall_0073
+    3140348828: DrawCall_0422
+    3158323077: DrawCall_0426
+    3162613755: DrawCall_0298
+    3175337420: DrawCall_0398
+    3204805525: DrawCall_0098
+    3243489029: DrawCall_0072
+    3257981766: DrawCall_0295
+    3268895595: DrawCall_0272
+    3311214431: DrawCall_0291
+    3317344114: DrawCall_0276
+    3355591427: DrawCall_0099
+    3393518938: DrawCall_0399
+    3410435859: DrawCall_0427
+    3414595437: DrawCall_0299
+    3425360650: DrawCall_0423
+    3508105794: DrawCall_0089
+    3518797561: DrawCall_0233
+    3529256530: DrawCall_0437
+    3533547052: DrawCall_0289
+    3576818251: DrawCall_0433
+    3604042464: DrawCall_0237
+    3628631620: DrawCall_0062
+    3658364957: DrawCall_0362
+    3677088263: DrawCall_0285
+    3687600682: DrawCall_0262
+    3695586846: DrawCall_0281
+    3701577267: DrawCall_0266
+    3743760989: DrawCall_0066
+    3765062864: DrawCall_0417
+    3796409932: DrawCall_0313
+    3844430421: DrawCall_0317
+    3876030665: DrawCall_0413
+    3925487784: DrawCall_0242
+    3934184646: DrawCall_0042
+    3977453791: DrawCall_0046
+    4002935985: DrawCall_0246
+    4041277929: DrawCall_0252
+    4083537287: DrawCall_0052
+    4094169502: DrawCall_0056
+    4132351943: DrawCall_0356
+    4153198064: DrawCall_0256
+    4174871395: DrawCall_0103
+    4184964497: DrawCall_0407
+    4216565517: DrawCall_0303
+    4231949076: DrawCall_0307
+    4263295368: DrawCall_0403
+    4290428794: DrawCall_0107
